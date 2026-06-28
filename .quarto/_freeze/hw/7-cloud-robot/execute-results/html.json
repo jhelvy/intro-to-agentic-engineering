@@ -1,0 +1,15 @@
+{
+  "hash": "6fbf2107984adb5d76c94f2633750a1e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Build 7: Cloud Robot\"\nparams:\n  number: 7\n  purpose: \"Automate verification and recurring work with GitHub Actions by building a scheduled workflow that runs in the cloud and does something useful on its own.\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n\n\n> **Due**: Mar 04 by 11:59pm\n>\n> **Weight**: This build is worth 5% of your final grade (8 builds × 5% = 40%).\n>\n> **Purpose**: Automate verification and recurring work with GitHub Actions by building a scheduled workflow that runs in the cloud and does something useful on its own.\n>\n> **Deliverable**: A GitHub repository containing your build **and the full\n> conversation history** with the agent (your prompts, the agent's responses,\n> and your iterations). Grading weighs the clarity of your prompts, evidence of\n> iterative collaboration, the quality of the final product, and thoughtful use\n> of this week's workflow skill.\n\n## The Build\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

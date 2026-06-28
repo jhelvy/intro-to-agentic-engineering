@@ -1,0 +1,15 @@
+{
+  "hash": "7ba9bf9074d28ed0ddef34950cdc8414",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Workflow Automation\"\nparams:\n  class: \"5-workflow-automation\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

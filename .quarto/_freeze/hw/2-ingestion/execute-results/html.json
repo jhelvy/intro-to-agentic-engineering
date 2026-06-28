@@ -1,0 +1,15 @@
+{
+  "hash": "f840401fb5190e99209543897b7335ca",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Build 2: Ingestion — Literature Review or Novel\"\nparams:\n  number: 2\n  purpose: \"Practice feeding an agent source material and grounding its output in that material. Choose your path: a literature review on a research topic, or a novel written in the voice of an author you admire.\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n\n\n> **Due**: Jan 28 by 11:59pm\n>\n> **Weight**: This build is worth 5% of your final grade (8 builds × 5% = 40%).\n>\n> **Purpose**: Practice feeding an agent source material and grounding its output in that material. Choose your path: a literature review on a research topic, or a novel written in the voice of an author you admire.\n>\n> **Deliverable**: A GitHub repository containing your build **and the full\n> conversation history** with the agent (your prompts, the agent's responses,\n> and your iterations). Grading weighs the clarity of your prompts, evidence of\n> iterative collaboration, the quality of the final product, and thoughtful use\n> of this week's workflow skill.\n\n## The Build\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

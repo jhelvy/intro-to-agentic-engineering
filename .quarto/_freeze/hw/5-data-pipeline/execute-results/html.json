@@ -1,0 +1,15 @@
+{
+  "hash": "f2e95c2f4c8b0566a93fe4dd8dcc87b3",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Build 5: Data Pipeline\"\nparams:\n  number: 5\n  purpose: \"Turn a repeated multi-step workflow into reusable custom commands and hooks by building a data analysis → report pipeline that automates its own routine steps.\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n\n\n> **Due**: Feb 18 by 11:59pm\n>\n> **Weight**: This build is worth 5% of your final grade (8 builds × 5% = 40%).\n>\n> **Purpose**: Turn a repeated multi-step workflow into reusable custom commands and hooks by building a data analysis → report pipeline that automates its own routine steps.\n>\n> **Deliverable**: A GitHub repository containing your build **and the full\n> conversation history** with the agent (your prompts, the agent's responses,\n> and your iterations). Grading weighs the clarity of your prompts, evidence of\n> iterative collaboration, the quality of the final product, and thoughtful use\n> of this week's workflow skill.\n\n## The Build\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

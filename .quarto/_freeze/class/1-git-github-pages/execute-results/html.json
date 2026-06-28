@@ -1,0 +1,15 @@
+{
+  "hash": "d3c94cd52b2555251a72556524d4a953",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Git, GitHub & Pages\"\nparams:\n  class: \"1-git-github-pages\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

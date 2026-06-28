@@ -1,0 +1,15 @@
+{
+  "hash": "7ba7399715336a0c2cc266f7ba16d586",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Team Project Overview\"\ntoc: true\ntoc-location: right\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\nThe team project is the capstone of the course — and the only piece of fully\nopen-ended work. In teams of **3–4**, you'll propose and build an ambitious,\nreal-world project of your own design, applying every workflow skill from the\nsemester: version control, planning, skills, automation, debugging, continuous\nintegration, deployment, and (where it helps) multi-agent orchestration.\n\nThroughout the final weeks, class sessions become **team work sessions** where the\ninstructor circulates, audits progress, and gives direction — and where we learn\ncollaboration workflows (pull request reviews, issues, and fork → branch → merge)\nlive, as you need them.\n\n**Summary of deliverables:**\n\n<div style=\"width:500px\">\n\nItem | Weight | Due\n-----|--------|-----------------\n[Proposal](1-proposal.qmd) | 5% | Feb 18 (Week 6)\n[Interim Report](2-interim-report.qmd) | 10% | Mar 25 (Week 11)\n[Final Report](3-final-report.qmd) | 25% | Apr 22 (Week 15)\n[Final Presentation](4-presentation.qmd) | 10% | Apr 29 (Week 16)\n\n</div>\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

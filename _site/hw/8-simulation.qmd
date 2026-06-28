@@ -1,0 +1,18 @@
+---
+title: "Build 8: Simulation Experiment"
+params:
+  number: 8
+  purpose: "Orchestrate specialized agents — a planner, a coder, and a tester — to design, implement, and validate a simulation experiment with supervised autonomy, where you review only the final results."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

@@ -1,0 +1,15 @@
+{
+  "hash": "7a142ecfd3bc4bb6ecb1e054df3d7d4d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Build 1: Personal Website\"\nparams:\n  number: 1\n  purpose: \"Get fluent with the core engineering workflow — version control with Git, collaboration on GitHub, and deployment to the web — by building and shipping a personal website in a framework of your choice.\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n\n\n> **Due**: Jan 21 by 11:59pm\n>\n> **Weight**: This build is worth 5% of your final grade (8 builds × 5% = 40%).\n>\n> **Purpose**: Get fluent with the core engineering workflow — version control with Git, collaboration on GitHub, and deployment to the web — by building and shipping a personal website in a framework of your choice.\n>\n> **Deliverable**: A GitHub repository containing your build **and the full\n> conversation history** with the agent (your prompts, the agent's responses,\n> and your iterations). Grading weighs the clarity of your prompts, evidence of\n> iterative collaboration, the quality of the final product, and thoughtful use\n> of this week's workflow skill.\n\n## The Build\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

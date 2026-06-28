@@ -1,0 +1,15 @@
+{
+  "hash": "c794375fda8a1fc85554f13f8a656f77",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Team Project: Proposal\"\nparams:\n  number: 1\n  weight: \"5%\"\n  purpose: \"Define your team, your problem, and your planned approach — and set up the GitHub repository where the work will live.\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n\n\n> **Due**: Feb 18 by 11:59pm\n>\n> **Weight**: This deliverable is worth 5% of your final grade.\n>\n> **Purpose**: Define your team, your problem, and your planned approach — and set up the GitHub repository where the work will live.\n\n## Details\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

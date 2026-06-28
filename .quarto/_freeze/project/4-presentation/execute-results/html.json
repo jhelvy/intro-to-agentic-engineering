@@ -1,0 +1,15 @@
+{
+  "hash": "98c4eb8a7946d677e12d3f671603cee2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Team Project: Final Presentation\"\nparams:\n  number: 4\n  weight: \"10%\"\n  purpose: \"Present your project to the class — articulate the problem, your solution, and the lessons you learned — in a short talk with Q&A.\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n\n\n> **Due**: Apr 29 by 11:59pm\n>\n> **Weight**: This deliverable is worth 10% of your final grade.\n>\n> **Purpose**: Present your project to the class — articulate the problem, your solution, and the lessons you learned — in a short talk with Q&A.\n\n## Details\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

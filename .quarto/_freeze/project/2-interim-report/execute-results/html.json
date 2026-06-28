@@ -1,0 +1,15 @@
+{
+  "hash": "b9af584d4e06f22434fdbd22e892aec2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Team Project: Interim Report\"\nparams:\n  number: 2\n  weight: \"10%\"\n  purpose: \"Report progress to date, the challenges you've hit, your next steps, and evidence of continued GitHub collaboration (commits, PRs, conversation logs).\"\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n\n\n> **Due**: Mar 25 by 11:59pm\n>\n> **Weight**: This deliverable is worth 10% of your final grade.\n>\n> **Purpose**: Report progress to date, the challenges you've hit, your next steps, and evidence of continued GitHub collaboration (commits, PRs, conversation logs).\n\n## Details\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

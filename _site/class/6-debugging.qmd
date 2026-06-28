@@ -1,0 +1,12 @@
+---
+title: "Debugging & Issue Resolution"
+params:
+  class: "6-debugging"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

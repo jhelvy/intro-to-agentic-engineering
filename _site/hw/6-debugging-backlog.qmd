@@ -1,0 +1,18 @@
+---
+title: "Build 6: Clear a Debugging Backlog"
+params:
+  number: 6
+  purpose: "Move from doing to delegating-and-verifying: direct an agent to diagnose and fix a backlog of issues in a provided repo, writing tests first and using a review agent to vet the work."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

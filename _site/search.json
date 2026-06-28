@@ -1,0 +1,495 @@
+[
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Instructor\nCourse\n\n\n\n\n John Paul Helveston\n Thursdays\n\n\n Tompkins 201\n Jan. 14 - Apr. 29, 2027\n\n\n jph@gwu.edu\n 3:30PM - 6:00PM EST\n\n\n\n\n\n\nThe bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\n\n\n\nStudents must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. You do not need to be an expert, but you should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "The bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#prerequisites",
+    "href": "syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Students must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. You do not need to be an expert, but you should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#participation-attendance",
+    "href": "syllabus.html#participation-attendance",
+    "title": "Syllabus",
+    "section": "Participation & Attendance",
+    "text": "Participation & Attendance\nAttendance will be taken and is the primary driver of your participation grade.\nIn-class work is hands-on and ungraded — but it is practice for the build you do at home. The take-home builds assume the skills we develop together in class, so missing class costs you twice: once on participation, and again on a much harder homework. Plan to attend in person every week.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#individual-builds",
+    "href": "syllabus.html#individual-builds",
+    "title": "Syllabus",
+    "section": "Individual Builds",
+    "text": "Individual Builds\nEach week (Weeks 1–8) you complete one build: an ambitious project in a domain you likely haven’t worked in before. Each build is delivered as a GitHub repository that includes the full conversation history with the agent. Grading focuses on prompt quality, evidence of iterative collaboration, final product quality, and thoughtful use of the week’s workflow skill. There are 8 builds, each worth 5% of your grade.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#team-project",
+    "href": "syllabus.html#team-project",
+    "title": "Syllabus",
+    "section": "Team Project",
+    "text": "Team Project\nThroughout the semester you’ll work in teams of 3–4 on an open-ended project of your own design — the one piece of fully open-ended work in the course. It is broken into milestone deliverables (proposal, interim report, final report, presentation). See the project overview for details.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#generative-ai-use-policy",
+    "href": "syllabus.html#generative-ai-use-policy",
+    "title": "Syllabus",
+    "section": "Generative-AI Use Policy",
+    "text": "Generative-AI Use Policy\nUsing AI agents is not “cheating” in this course — it is the core skill being taught. For individual builds you are required to use an agentic coding tool and to disclose your full conversation history as part of your submission. You remain fully responsible for the correctness, quality, and originality of everything you submit: read what the agent produces, run it, and fix it when it’s wrong. Detailed disclosure requirements appear in each assignment.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "All assignments are due by 11:59pm on the due date. Dates are tentative and will be confirmed against the official Spring 2027 academic calendar.\n\n\n\n\n\nWeek\nDate\nTrust Level\nClass\nBuild (Individual)\nTeam Project\n\n\n\n\n1\nJan 14\nHigh touch\nGit, GitHub & Pages\nTerminal & agent setup; first repo, commit, and PR; deploying to GitHub Pages\nBuild 1\nDue: Jan 21\n\n\n\n2\nJan 21\nHigh touch\nContext & Document Injection\nFeeding the agent source material; grounded summarizing; context hygiene\nBuild 2\nDue: Jan 28\n\n\n\n3\nJan 28\nHigh touch\nPlanning & Project Memory\nPlan mode; CLAUDE.md, memory, and project configuration\nBuild 3\nDue: Feb 04\n\n\n\n4\nFeb 04\nLeverage\nSkills\nUsing and building custom skills; teams form this week\nBuild 4\nDue: Feb 11\n\n\n\n5\nFeb 11\nLeverage\nWorkflow Automation\nCustom slash commands and hooks layered on skills\nBuild 5\nDue: Feb 18\n\n\n\n6\nFeb 18\nDelegate + verify\nDebugging & Issue Resolution\nAgent-driven debugging; resolving a repo's issues; review agents\nBuild 6\nDue: Feb 25\nProposal\nDue: Feb 18\n\n\n7\nFeb 25\nAutomate verification\nContinuous Integration\nAutomated testing with GitHub Actions; scheduled jobs\nBuild 7\nDue: Mar 04\n\n\n\n8\nMar 04\nOrchestrate\nMulti-Agent Orchestration\nPlanner/coder/tester roles; supervised autonomy\nBuild 8\nDue: Mar 18\n\n\n\n9\nMar 11\n\nSpring Break — no class\n\n\n\n\n\n10\nMar 18\nTeam project\nProject Kickoff & Work Session\nTeam project work; deploying apps beyond static sites\n\n\n\n\n11\nMar 25\nTeam project\nWork Session: PRs & Issues\nWorking as a team through pull requests and issues\n\nInterim Report\nDue: Mar 25\n\n\n12\nApr 01\nTeam project\nWork Session: Fork & Merge\nForking, branching, and merging workflows\n\n\n\n\n13\nApr 08\nTeam project\nWork Session\nTeam work; instructor circulates and gives direction\n\n\n\n\n14\nApr 15\nTeam project\nWork Session\nTeam work; instructor circulates and gives direction\n\n\n\n\n15\nApr 22\nTeam project\nFinal Checkpoint\nFinal preparations and code review\n\nFinal Report\nDue: Apr 22\n\n\n16\nApr 29\nTeam project\nFinal Presentations\nIn-class presentation showcase with Q&A\n\nPresentation\nDue: Apr 29",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "project/4-presentation.html",
+    "href": "project/4-presentation.html",
+    "title": "Team Project: Final Presentation",
+    "section": "",
+    "text": "Due: Apr 29 by 11:59pm\nWeight: This deliverable is worth 10% of your final grade.\nPurpose: Present your project to the class — articulate the problem, your solution, and the lessons you learned — in a short talk with Q&A.",
+    "crumbs": [
+      "Team Project",
+      "Final Presentation"
+    ]
+  },
+  {
+    "objectID": "project/4-presentation.html#details",
+    "href": "project/4-presentation.html#details",
+    "title": "Team Project: Final Presentation",
+    "section": "Details",
+    "text": "Details\nComing soon!",
+    "crumbs": [
+      "Team Project",
+      "Final Presentation"
+    ]
+  },
+  {
+    "objectID": "project/2-interim-report.html",
+    "href": "project/2-interim-report.html",
+    "title": "Team Project: Interim Report",
+    "section": "",
+    "text": "Due: Mar 25 by 11:59pm\nWeight: This deliverable is worth 10% of your final grade.\nPurpose: Report progress to date, the challenges you’ve hit, your next steps, and evidence of continued GitHub collaboration (commits, PRs, conversation logs).",
+    "crumbs": [
+      "Team Project",
+      "Interim Report"
+    ]
+  },
+  {
+    "objectID": "project/2-interim-report.html#details",
+    "href": "project/2-interim-report.html#details",
+    "title": "Team Project: Interim Report",
+    "section": "Details",
+    "text": "Details\nComing soon!",
+    "crumbs": [
+      "Team Project",
+      "Interim Report"
+    ]
+  },
+  {
+    "objectID": "project/0-overview.html",
+    "href": "project/0-overview.html",
+    "title": "Team Project Overview",
+    "section": "",
+    "text": "The team project is the capstone of the course — and the only piece of fully open-ended work. In teams of 3–4, you’ll propose and build an ambitious, real-world project of your own design, applying every workflow skill from the semester: version control, planning, skills, automation, debugging, continuous integration, deployment, and (where it helps) multi-agent orchestration.\nThroughout the final weeks, class sessions become team work sessions where the instructor circulates, audits progress, and gives direction — and where we learn collaboration workflows (pull request reviews, issues, and fork → branch → merge) live, as you need them.\nSummary of deliverables:\n\n\n\n\nItem\nWeight\nDue\n\n\n\n\nProposal\n5%\nFeb 18 (Week 6)\n\n\nInterim Report\n10%\nMar 25 (Week 11)\n\n\nFinal Report\n25%\nApr 22 (Week 15)\n\n\nFinal Presentation\n10%\nApr 29 (Week 16)\n\n\n\n\nComing soon!",
+    "crumbs": [
+      "Team Project",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "hw/8-simulation.html",
+    "href": "hw/8-simulation.html",
+    "title": "Build 8: Simulation Experiment",
+    "section": "",
+    "text": "Due: Mar 18 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Orchestrate specialized agents — a planner, a coder, and a tester — to design, implement, and validate a simulation experiment with supervised autonomy, where you review only the final results.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "8: Simulation Experiment"
+    ]
+  },
+  {
+    "objectID": "hw/8-simulation.html#the-build",
+    "href": "hw/8-simulation.html#the-build",
+    "title": "Build 8: Simulation Experiment",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "8: Simulation Experiment"
+    ]
+  },
+  {
+    "objectID": "hw/6-debugging-backlog.html",
+    "href": "hw/6-debugging-backlog.html",
+    "title": "Build 6: Clear a Debugging Backlog",
+    "section": "",
+    "text": "Due: Feb 25 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Move from doing to delegating-and-verifying: direct an agent to diagnose and fix a backlog of issues in a provided repo, writing tests first and using a review agent to vet the work.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "6: Debugging Backlog"
+    ]
+  },
+  {
+    "objectID": "hw/6-debugging-backlog.html#the-build",
+    "href": "hw/6-debugging-backlog.html#the-build",
+    "title": "Build 6: Clear a Debugging Backlog",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "6: Debugging Backlog"
+    ]
+  },
+  {
+    "objectID": "hw/4-video-game.html",
+    "href": "hw/4-video-game.html",
+    "title": "Build 4: Video Game",
+    "section": "",
+    "text": "Due: Feb 11 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Learn to extend an agent’s capabilities with skills by downloading game-development skills, assembling them, and building a playable video game.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "4: Video Game"
+    ]
+  },
+  {
+    "objectID": "hw/4-video-game.html#the-build",
+    "href": "hw/4-video-game.html#the-build",
+    "title": "Build 4: Video Game",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "4: Video Game"
+    ]
+  },
+  {
+    "objectID": "hw/2-ingestion.html",
+    "href": "hw/2-ingestion.html",
+    "title": "Build 2: Ingestion — Literature Review or Novel",
+    "section": "",
+    "text": "Due: Jan 28 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Practice feeding an agent source material and grounding its output in that material. Choose your path: a literature review on a research topic, or a novel written in the voice of an author you admire.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "2: Ingestion (Review or Novel)"
+    ]
+  },
+  {
+    "objectID": "hw/2-ingestion.html#the-build",
+    "href": "hw/2-ingestion.html#the-build",
+    "title": "Build 2: Ingestion — Literature Review or Novel",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "2: Ingestion (Review or Novel)"
+    ]
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "Coming soon!",
+    "crumbs": [
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "class/7-continuous-integration.html",
+    "href": "class/7-continuous-integration.html",
+    "title": "Continuous Integration",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/5-workflow-automation.html",
+    "href": "class/5-workflow-automation.html",
+    "title": "Workflow Automation",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/3-planning-and-memory.html",
+    "href": "class/3-planning-and-memory.html",
+    "title": "Planning & Project Memory",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/1-git-github-pages.html",
+    "href": "class/1-git-github-pages.html",
+    "title": "Git, GitHub & Pages",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "License",
+    "section": "",
+    "text": "Unless otherwise noted, the content of this course website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).\nYou are free to share and adapt this material for any purpose, even commercially, as long as you give appropriate credit and distribute your contributions under the same license.",
+    "crumbs": [
+      "Other",
+      "License"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\nThis course was created by Dr. John Paul Helveston at the George Washington University. Course materials are shared openly; see the LICENSE page for details.",
+    "crumbs": [
+      "Other",
+      "About"
+    ]
+  },
+  {
+    "objectID": "class/2-context-injection.html",
+    "href": "class/2-context-injection.html",
+    "title": "Context & Document Injection",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/4-skills.html",
+    "href": "class/4-skills.html",
+    "title": "Skills",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/6-debugging.html",
+    "href": "class/6-debugging.html",
+    "title": "Debugging & Issue Resolution",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/8-multi-agent.html",
+    "href": "class/8-multi-agent.html",
+    "title": "Multi-Agent Orchestration",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "hw/1-personal-website.html",
+    "href": "hw/1-personal-website.html",
+    "title": "Build 1: Personal Website",
+    "section": "",
+    "text": "Due: Jan 21 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Get fluent with the core engineering workflow — version control with Git, collaboration on GitHub, and deployment to the web — by building and shipping a personal website in a framework of your choice.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "1: Personal Website"
+    ]
+  },
+  {
+    "objectID": "hw/1-personal-website.html#the-build",
+    "href": "hw/1-personal-website.html#the-build",
+    "title": "Build 1: Personal Website",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "1: Personal Website"
+    ]
+  },
+  {
+    "objectID": "hw/3-recreate-app.html",
+    "href": "hw/3-recreate-app.html",
+    "title": "Build 3: Recreate an App from a Spec",
+    "section": "",
+    "text": "Due: Feb 04 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Use plan mode and project memory (CLAUDE.md) to take on a project big enough that it fails without a plan. Recreate a known small app from a specification.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "3: Recreate an App"
+    ]
+  },
+  {
+    "objectID": "hw/3-recreate-app.html#the-build",
+    "href": "hw/3-recreate-app.html#the-build",
+    "title": "Build 3: Recreate an App from a Spec",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "3: Recreate an App"
+    ]
+  },
+  {
+    "objectID": "hw/5-data-pipeline.html",
+    "href": "hw/5-data-pipeline.html",
+    "title": "Build 5: Data Pipeline",
+    "section": "",
+    "text": "Due: Feb 18 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Turn a repeated multi-step workflow into reusable custom commands and hooks by building a data analysis → report pipeline that automates its own routine steps.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "5: Data Pipeline"
+    ]
+  },
+  {
+    "objectID": "hw/5-data-pipeline.html#the-build",
+    "href": "hw/5-data-pipeline.html#the-build",
+    "title": "Build 5: Data Pipeline",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "5: Data Pipeline"
+    ]
+  },
+  {
+    "objectID": "hw/7-cloud-robot.html",
+    "href": "hw/7-cloud-robot.html",
+    "title": "Build 7: Cloud Robot",
+    "section": "",
+    "text": "Due: Mar 04 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Automate verification and recurring work with GitHub Actions by building a scheduled workflow that runs in the cloud and does something useful on its own.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "7: Cloud Robot"
+    ]
+  },
+  {
+    "objectID": "hw/7-cloud-robot.html#the-build",
+    "href": "hw/7-cloud-robot.html#the-build",
+    "title": "Build 7: Cloud Robot",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "7: Cloud Robot"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EMSE 6992Introduction to Agentic EngineeringSpring 2027",
+    "section": "",
+    "text": "EMSE 6992Introduction to Agentic EngineeringSpring 2027\nDepartment: Engineering Management and Systems Engineering @ GWU\nCredits: 3\nDescription:\nThe bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\nLearning Objectives:\nHaving successfully completed this course, students will be able to:\n\nDirect an AI agent to build real products in domains they haven’t learned before.\nUse Git, GitHub, and pull requests fluently as everyday version control and collaboration tools.\nSet up continuous integration with GitHub Actions and deploy to the web with GitHub Pages.\nDebug agent-built systems and use agents to diagnose and resolve issues, with automated review.\nOrchestrate specialized agents (planning, coding, testing) into a supervised pipeline.\nTeach themselves a new domain using an agent — the meta-skill that outlasts any single tool.\n\nPrerequisites:\nStudents must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. You do not need to be an expert, but you should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "project/1-proposal.html",
+    "href": "project/1-proposal.html",
+    "title": "Team Project: Proposal",
+    "section": "",
+    "text": "Due: Feb 18 by 11:59pm\nWeight: This deliverable is worth 5% of your final grade.\nPurpose: Define your team, your problem, and your planned approach — and set up the GitHub repository where the work will live.",
+    "crumbs": [
+      "Team Project",
+      "Proposal"
+    ]
+  },
+  {
+    "objectID": "project/1-proposal.html#details",
+    "href": "project/1-proposal.html#details",
+    "title": "Team Project: Proposal",
+    "section": "Details",
+    "text": "Details\nComing soon!",
+    "crumbs": [
+      "Team Project",
+      "Proposal"
+    ]
+  },
+  {
+    "objectID": "project/3-final-report.html",
+    "href": "project/3-final-report.html",
+    "title": "Team Project: Final Report",
+    "section": "",
+    "text": "Due: Apr 22 by 11:59pm\nWeight: This deliverable is worth 25% of your final grade.\nPurpose: Deliver the complete project: problem statement, solution architecture, implementation details, results and evaluation, lessons learned, and the GitHub repository with full codebase and conversation history.",
+    "crumbs": [
+      "Team Project",
+      "Final Report"
+    ]
+  },
+  {
+    "objectID": "project/3-final-report.html#details",
+    "href": "project/3-final-report.html#details",
+    "title": "Team Project: Final Report",
+    "section": "Details",
+    "text": "Details\nComing soon!",
+    "crumbs": [
+      "Team Project",
+      "Final Report"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Resources",
+    "section": "",
+    "text": "A growing list of readings, tools, and examples we draw on throughout the course.",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "references.html#on-agentic-engineering",
+    "href": "references.html#on-agentic-engineering",
+    "title": "Resources",
+    "section": "On agentic engineering",
+    "text": "On agentic engineering\n\nWes McKinney, “Vibe Coding Is Dangerous, Agentic Engineering Isn’t”\nWes McKinney, “From Human Ergonomics to Agent Ergonomics”",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "references.html#tools-we-reference",
+    "href": "references.html#tools-we-reference",
+    "title": "Resources",
+    "section": "Tools we reference",
+    "text": "Tools we reference\n\nClaude Code — the agentic coding tool used throughout the course.\nsuperpowers — a spec-driven agentic skills framework (Skills week).\nRoborev — continuous AI code review that flags issues per commit (Debugging week).\nMiddleman — a local dashboard to triage, review, and merge issues & PRs.\nAgentsview — an agent session viewer for reviewing what your agents did.\n\nComing soon!",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software & Setup",
+    "section": "",
+    "text": "This page will walk through everything you need installed before the first class. A quick list of what we’ll use:\n\nA terminal and a code editor (VS Code recommended).\nGit for version control.\nA GitHub account.\nAn agentic coding tool (Claude Code).\nLanguage runtimes as needed per build (e.g., Node, Python, R / Quarto).\n\nComing soon!",
+    "crumbs": [
+      "Software & Setup"
+    ]
+  }
+]

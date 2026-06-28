@@ -1,0 +1,15 @@
+{
+  "hash": "05db113cc6e8bf5a5b5186d1d7d79fa1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Software & Setup\"\ntoc: true\ntoc-location: right\n---\n\nThis page will walk through everything you need installed before the first class.\nA quick list of what we'll use:\n\n- A terminal and a code editor (VS Code recommended).\n- [Git](https://git-scm.com/) for version control.\n- A [GitHub](https://github.com/) account.\n- An agentic coding tool ([Claude Code](https://www.claude.com/product/claude-code)).\n- Language runtimes as needed per build (e.g., Node, Python, R / Quarto).\n\n\nComing soon!\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

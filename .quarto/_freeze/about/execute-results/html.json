@@ -1,0 +1,15 @@
+{
+  "hash": "3a42a0e9e104cb20b41c52603f497455",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"About\"\n---\n\n\nThe bottleneck on what you can build is no longer *what you already know* — it's your workflow discipline and your ability to direct an agent. This course teaches students to use tools like [Claude Code](https://www.claude.com/product/claude-code) to build ambitious things they don't yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author's voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a \"trust gradient,\" moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\n\nThis course was created by Dr. John Paul Helveston at the George Washington\nUniversity. Course materials are shared openly; see the [LICENSE](LICENSE.html)\npage for details.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

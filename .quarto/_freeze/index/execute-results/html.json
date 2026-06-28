@@ -1,0 +1,15 @@
+{
+  "hash": "dbef1c7fde2dff525f7389a4df640e20",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# EMSE 6992<br>Introduction to Agentic Engineering<br>Spring 2027\n\n**Department**: [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu/) @ [GWU](https://www.gwu.edu/)\n\n**Credits**: 3\n\n**Description**:\n\n\nThe bottleneck on what you can build is no longer *what you already know* — it's your workflow discipline and your ability to direct an agent. This course teaches students to use tools like [Claude Code](https://www.claude.com/product/claude-code) to build ambitious things they don't yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author's voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a \"trust gradient,\" moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\n\n**Learning Objectives**:\n\n\nHaving successfully completed this course, students will be able to:\n\n- Direct an AI agent to build real products in domains they haven't learned before.\n- Use Git, GitHub, and pull requests fluently as everyday version control and collaboration tools.\n- Set up continuous integration with GitHub Actions and deploy to the web with GitHub Pages.\n- Debug agent-built systems and use agents to diagnose and resolve issues, with automated review.\n- Orchestrate specialized agents (planning, coding, testing) into a supervised pipeline.\n- Teach themselves a new domain using an agent — the meta-skill that outlasts any single tool.\n\n**Prerequisites**:\n\n\nStudents must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. You do not need to be an expert, but you should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. **Students with zero coding experience will find this course very difficult.**\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
