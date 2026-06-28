@@ -1,0 +1,10 @@
+---
+title: "About"
+---
+
+```{r child = here::here("fragments", "description.qmd")}
+```
+
+This course was created by Dr. John Paul Helveston at the George Washington
+University. Course materials are shared openly; see the [LICENSE](LICENSE.html)
+page for details.

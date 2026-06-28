@@ -1,0 +1,22 @@
+```{r}
+#| include: false
+
+source(here::here("_common.R"))
+
+due <- get_schedule() %>%
+  filter(n_assign == params$number) %>%
+  pull(due_assign) %>%
+  paste0(" by 11:59pm")
+```
+
+> **Due**: `r due`
+>
+> **Weight**: This build is worth 5% of your final grade (8 builds × 5% = 40%).
+>
+> **Purpose**: `r params$purpose`
+>
+> **Deliverable**: A GitHub repository containing your build **and the full
+> conversation history** with the agent (your prompts, the agent's responses,
+> and your iterations). Grading weighs the clarity of your prompts, evidence of
+> iterative collaboration, the quality of the final product, and thoughtful use
+> of this week's workflow skill.

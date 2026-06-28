@@ -1,0 +1,18 @@
+---
+title: "Build 1: Personal Website"
+params:
+  number: 1
+  purpose: "Get fluent with the core engineering workflow — version control with Git, collaboration on GitHub, and deployment to the web — by building and shipping a personal website in a framework of your choice."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

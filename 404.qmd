@@ -1,0 +1,6 @@
+---
+title: "Page Not Found"
+---
+
+Sorry, that page doesn't exist. Head back to the [home page](index.qmd) or use the
+sidebar to find what you're looking for.

@@ -1,0 +1,12 @@
+---
+title: "Planning & Project Memory"
+params:
+  class: "3-planning-and-memory"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

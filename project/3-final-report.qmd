@@ -1,0 +1,19 @@
+---
+title: "Team Project: Final Report"
+params:
+  number: 3
+  weight: "25%"
+  purpose: "Deliver the complete project: problem statement, solution architecture, implementation details, results and evaluation, lessons learned, and the GitHub repository with full codebase and conversation history."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "project.qmd")}
+```
+
+## Details
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

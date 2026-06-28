@@ -1,0 +1,8 @@
+Having successfully completed this course, students will be able to:
+
+- Direct an AI agent to build real products in domains they haven't learned before.
+- Use Git, GitHub, and pull requests fluently as everyday version control and collaboration tools.
+- Set up continuous integration with GitHub Actions and deploy to the web with GitHub Pages.
+- Debug agent-built systems and use agents to diagnose and resolve issues, with automated review.
+- Orchestrate specialized agents (planning, coding, testing) into a supervised pipeline.
+- Teach themselves a new domain using an agent — the meta-skill that outlasts any single tool.

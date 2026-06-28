@@ -1,0 +1,115 @@
+---
+title: Syllabus
+toc: true
+toc-location: right
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+source("_common.R")
+```
+
+# Course Information
+
+<div style="width:600px">
+Instructor | Course
+---|---
+<i class="bi-person-fill"></i> John Paul Helveston | <i class="bi-calendar-fill"></i> {{< var weekday >}}
+<i class="bi-geo-alt-fill"></i> [{{< var room >}}]({{< var room_url >}}) | <i class="bi-calendar-week-fill"></i> {{< var dates >}}
+<i class="bi-envelope-fill"></i> [{{< var email >}}](mailto:{{< var email >}}) | <i class="bi-clock-fill"></i> {{< var time >}}
+</div>
+
+## Course Description
+
+```{r child = here::here("fragments", "description.qmd")}
+```
+
+## Prerequisites
+
+```{r child = here::here("fragments", "prerequisites.qmd")}
+```
+
+# Learning Objectives
+
+```{r child = here::here("fragments", "learning-objectives.qmd")}
+```
+
+# How the Course Works
+
+The course runs on a **dual spine**. Every week pairs:
+
+- **A workflow concept, taught hands-on in class.** Our 2.5-hour weekly session is
+  a workshop. We learn a workflow skill by *doing it together* in real time — the
+  first time you make a repository, open a pull request, or set up continuous
+  integration, you'll do it live in class.
+- **An ambitious take-home build.** Each week's individual assignment is a
+  build in an unfamiliar domain that forces you to apply that week's workflow
+  skill on your own, at higher stakes.
+
+The sequence follows a **trust gradient**: we begin with high-touch, back-and-forth
+collaboration with an agent and progress toward orchestrating specialized agents
+that work for long stretches under your supervision. See the
+[schedule](schedule.qmd) for the week-by-week plan.
+
+# Assignments
+
+## Participation & Attendance
+
+**Attendance will be taken and is the primary driver of your participation grade.**
+
+In-class work is hands-on and ungraded — but it is *practice for the build you do
+at home*. The take-home builds assume the skills we develop together in class, so
+missing class costs you twice: once on participation, and again on a much harder
+homework. Plan to attend in person every week.
+
+## Individual Builds
+
+Each week (Weeks 1–8) you complete one **build**: an ambitious project in a domain
+you likely haven't worked in before. Each build is delivered as a **GitHub
+repository that includes the full conversation history** with the agent. Grading
+focuses on prompt quality, evidence of iterative collaboration, final product
+quality, and thoughtful use of the week's workflow skill. There are 8 builds, each
+worth 5% of your grade.
+
+## Team Project
+
+Throughout the semester you'll work in **teams of 3–4** on an open-ended project of
+your own design — the one piece of fully open-ended work in the course. It is
+broken into milestone deliverables (proposal, interim report, final report,
+presentation). See the [project overview](project/0-overview.qmd) for details.
+
+# Grading
+
+Final grades will be calculated as follows:
+
+<div style="width:650px">
+
+Item | Weight | Notes
+-----|--------|----------------------------------
+Individual Builds (8) | 40% | 8 builds, each worth 5%
+Team Project: Proposal | 5% | Teams of 3–4 (Week 6)
+Team Project: Interim Report | 10% | (Week 11)
+Team Project: Final Report | 25% | (Week 15)
+Final Presentation | 10% | (Week 16)
+Participation / Attendance | 10% | Yes, attendance is taken
+
+</div>
+
+## Generative-AI Use Policy
+
+Using AI agents is not "cheating" in this course — **it is the core skill being
+taught**. For individual builds you are *required* to use an agentic coding tool
+and to disclose your full conversation history as part of your submission. You
+remain fully responsible for the correctness, quality, and originality of
+everything you submit: read what the agent produces, run it, and fix it when it's
+wrong. Detailed disclosure requirements appear in each assignment.
+
+# Course Policies
+
+> *Detailed policies — late work, re-grades, academic integrity, attendance
+> thresholds, and university-required statements (DSS, religious holidays, CAPS,
+> nondiscrimination, recording) — will be merged in here from the working
+> syllabus draft (`class-factory.md`).*

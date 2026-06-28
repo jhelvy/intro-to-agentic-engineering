@@ -1,0 +1,38 @@
+---
+title: Schedule
+toc: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+All assignments are due by 11:59pm on the due date. Dates are tentative and will
+be confirmed against the official Spring 2027 academic calendar.
+
+```{r}
+# NOTE: The schedule.lua file is inserted as a filter in _quarto.yml to
+# avoid the insertion of a <colgroup> in the html around this table:
+# https://github.com/jgm/pandoc/issues/8139
+
+source("_common.R")
+
+schedule <- get_schedule()
+names(schedule) <- str_to_title(names(schedule))
+done <- schedule %>%
+  rename(
+      `Trust Level` = Theme,
+      `Team Project` = Project,
+      `Build (Individual)` = Assign
+  ) %>%
+  select(
+      Week, Date = Date_md, `Trust Level`, Class, `Build (Individual)`,
+      `Team Project`
+  ) %>%
+  kable(format = 'html', escape = FALSE,
+        align = c('c', 'c', 'c', 'l', 'l', 'l')) %>%
+  kable_styling(full_width = F, bootstrap_options = c("striped", "hover")) %>%
+  column_spec(column = 4, width = '22em')
+
+done
+```

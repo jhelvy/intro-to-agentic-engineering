@@ -1,0 +1,116 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 5899
+    browser: true
+  render:
+    - "*.qmd"
+    - "!fragments/"
+    - "!class/1-git-github-pages/"
+    - "!class/2-context-injection/"
+    - "!class/3-planning-and-memory/"
+    - "!class/4-skills/"
+    - "!class/5-workflow-automation/"
+    - "!class/6-debugging/"
+    - "!class/7-continuous-integration/"
+    - "!class/8-multi-agent/"
+  resources:
+    - "class/"
+    - "hw/"
+    - "project/"
+
+website:
+  title: EMSE 6992
+  site-url: https://jhelvy.github.io/intro-to-agentic-engineering/
+  repo-url: https://github.com/jhelvy/intro-to-agentic-engineering
+  repo-actions: [edit, issue]
+  description: 'Course website for Spring 2027 semester of the EMSE course "Introduction to Agentic Engineering" at GWU'
+  search: true
+  sidebar:
+    style: "docked"
+    background: "dark"
+    collapse-level: 1
+    search: true
+    contents:
+      - text: Home
+        icon: house-door-fill
+        href: index.qmd
+      - text: Syllabus
+        icon: map-fill
+        href: syllabus.qmd
+      - text: Schedule
+        icon: table
+        href: schedule.qmd
+      - section: Builds (Individual)
+        icon: hammer
+        contents:
+          - text: "1: Personal Website"
+            href: hw/1-personal-website.qmd
+          - text: "2: Ingestion (Review or Novel)"
+            href: hw/2-ingestion.qmd
+          - text: "3: Recreate an App"
+            href: hw/3-recreate-app.qmd
+          - text: "4: Video Game"
+            href: hw/4-video-game.qmd
+          - text: "5: Data Pipeline"
+            href: hw/5-data-pipeline.qmd
+          - text: "6: Debugging Backlog"
+            href: hw/6-debugging-backlog.qmd
+          - text: "7: Cloud Robot"
+            href: hw/7-cloud-robot.qmd
+          - text: "8: Simulation Experiment"
+            href: hw/8-simulation.qmd
+      - section: Team Project
+        icon: people-fill
+        contents:
+          - text: Overview
+            href: project/0-overview.qmd
+          - text: Proposal
+            href: project/1-proposal.qmd
+          - text: Interim Report
+            href: project/2-interim-report.qmd
+          - text: Final Report
+            href: project/3-final-report.qmd
+          - text: Final Presentation
+            href: project/4-presentation.qmd
+      - text: Software & Setup
+        icon: download
+        href: software.qmd
+      - text: FAQ
+        icon: question-square-fill
+        href: faq.qmd
+      - text: Resources
+        icon: bookmark-fill
+        href: references.qmd
+      - section: Other
+        icon: question-circle-fill
+        contents:
+          - text: About
+            icon: question-circle-fill
+            href: about.qmd
+          - text: License
+            icon: award-fill
+            href: LICENSE.qmd
+          - text: Contact
+            icon: envelope-fill
+            href: mailto:jph@gwu.edu
+          - text: Source files
+            icon: github
+            href: https://github.com/jhelvy/intro-to-agentic-engineering
+  page-footer:
+    center:
+      - text: "© 2027 John Paul Helveston {{< fa creative-commons-sa >}} <a href='LICENSE.html'><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-by'></i><i class='fab fa-creative-commons-sa'></i></a><br><i class='far fa-calendar-alt'></i> {{< var weekday >}} | <i class='far fa-clock'></i> {{< var time >}} | <i class='fa fa-map-marker-alt'></i> {{< var room >}}<br><a href='https://www.jhelvy.com'><i class='fas fa-user'></i> Dr. John Paul Helveston</a> | <a href='mailto:{{< var email >}}'><i class='fas fa-envelope'></i> {{< var email >}}</a> | <a href='{{< var repo >}}'><i class='fab fa-github'></i></a>"
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    include-in-header: "_includes/header.html"
+
+filters:
+    - schedule.lua

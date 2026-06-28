@@ -1,0 +1,8 @@
+---
+title: "FAQ"
+toc: true
+toc-location: right
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

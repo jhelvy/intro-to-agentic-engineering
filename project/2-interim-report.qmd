@@ -1,0 +1,19 @@
+---
+title: "Team Project: Interim Report"
+params:
+  number: 2
+  weight: "10%"
+  purpose: "Report progress to date, the challenges you've hit, your next steps, and evidence of continued GitHub collaboration (commits, PRs, conversation logs)."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "project.qmd")}
+```
+
+## Details
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

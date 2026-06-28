@@ -1,0 +1,23 @@
+---
+title: "Resources"
+toc: true
+toc-location: right
+---
+
+A growing list of readings, tools, and examples we draw on throughout the course.
+
+## On agentic engineering
+
+- Wes McKinney, [*"Vibe Coding Is Dangerous, Agentic Engineering Isn't"*](https://motherduck.com/blog/vibe-coding-dangerous-agentic-engineering-wes-mckinney/)
+- Wes McKinney, [*"From Human Ergonomics to Agent Ergonomics"*](https://wesmckinney.com/blog/agent-ergonomics/)
+
+## Tools we reference
+
+- [Claude Code](https://www.claude.com/product/claude-code) — the agentic coding tool used throughout the course.
+- **superpowers** — a spec-driven agentic skills framework (Skills week).
+- **Roborev** — continuous AI code review that flags issues per commit (Debugging week).
+- **Middleman** — a local dashboard to triage, review, and merge issues & PRs.
+- **Agentsview** — an agent session viewer for reviewing what your agents did.
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

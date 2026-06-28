@@ -1,0 +1,17 @@
+---
+title: "Software & Setup"
+toc: true
+toc-location: right
+---
+
+This page will walk through everything you need installed before the first class.
+A quick list of what we'll use:
+
+- A terminal and a code editor (VS Code recommended).
+- [Git](https://git-scm.com/) for version control.
+- A [GitHub](https://github.com/) account.
+- An agentic coding tool ([Claude Code](https://www.claude.com/product/claude-code)).
+- Language runtimes as needed per build (e.g., Node, Python, R / Quarto).
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```
