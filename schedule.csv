@@ -1,18 +1,17 @@
 week,date,theme,n_class,stub_class,name_class,description_class,n_assign,name_assign,stub_assign,due_assign,n_project,stub_project,name_project,due_project
-1,2027/08/26,By hand,1,git-github-pages,"Git, GitHub & Pages","Setup; Git and GitHub by hand: commit, branch, PR; deploying to GitHub Pages",1,,git-warmup,2027/09/02,,,,
-2,2027/09/02,Chat,2,how-llms-work,How LLMs Work (and Fail),"Tokens, attention, sampling, context windows, hallucination, tool calling",2,,probe-the-model,2027/09/09,,,,
-3,2027/09/09,High touch,3,agents,Agents,"The agent loop and harness; tools, permissions, and failure modes",3,,personal-website,2027/09/16,,,,
-4,2027/09/16,High touch,4,context-engineering,Context Engineering,"Attention budget, injecting documents, context hygiene",4,,ingestion,2027/09/23,,,,
-5,2027/09/23,High touch,5,planning-and-memory,"Specs, Planning & Memory","Plan mode; specs with guardrails; AGENTS.md and CLAUDE.md; teams form",5,,recreate-app,2027/09/30,,,,
-6,2027/09/30,Leverage,6,skills,Skills,"Using and building skills; commands as skills",6,,video-game,2027/10/14,,,,
-7,2027/10/07,,,,Fall Break — no class,,,,,,,,,
-8,2027/10/14,Delegate + verify,7,verification,The Verification Harness,"Tests, hooks, debugging, and review agents",7,,review-harness,2027/10/21,1,proposal,Proposal,2027/10/14
-9,2027/10/21,Automate verification,8,continuous-integration,CI & Cloud Robots,"GitHub Actions on push; scheduled jobs; secrets",8,,cloud-robot,2027/10/28,,,,
-10,2027/10/28,Apply,9,data-analysis,Agentic Data Analysis,"polars, plotnine, and Great Tables with data skills; team studio begins",9,,data-analysis,2027/11/04,,,,
-11,2027/11/04,Embed,10,llm-apis,LLMs Inside Your Code,"Calling LLMs from Python with chatlas: structured data, tools, evals",10,,ai-tool,2027/11/11,,,,
-12,2027/11/11,Connect,11,mcp,MCP,"Using and building MCP servers; prompt-injection risks",11,,mcp-server,2027/12/02,,,,
-13,2027/11/18,Orchestrate,12,multi-agent,Multi-Agent & Team Workflows,"Subagents, parallel agents in worktrees, PR review and merging",,,,,2,interim-report,Interim Report,2027/11/18
-14,2027/11/25,,,,Thanksgiving — no class,,,,,,,,,
-15,2027/12/02,Team project,,,Team Studio,"Team work; instructor circulates and gives direction",,,,,,,,
-16,2027/12/07,Team project,,,Studio & Final Checkpoint,"Designated Thursday (meets Tue Dec 7); final code review",,,,,3,final-report,Final Report,2027/12/07
-17,2027/12/10,Team project,,,Final Presentations,"During the final exam slot (date TBD)",,,,,4,presentation,Presentation,2027/12/10
+1,2027/08/25,By hand,1,git-github-pages,"Git, GitHub & Pages","Setup; Git and GitHub by hand: commit, branch, PR; deploying to GitHub Pages",1,,git-warmup,2027/09/01,,,,
+2,2027/09/01,Chat,2,how-llms-work,How LLMs Work (and Fail),"Tokens, attention, sampling, context windows, hallucination, tool calling",2,,probe-the-model,2027/09/08,,,,
+3,2027/09/08,High touch,3,agents,Agents,"The agent loop and harness; tools, permissions, and failure modes",3,,personal-website,2027/09/15,,,,
+4,2027/09/15,High touch,4,context-engineering,Context Engineering,"Attention budget, injecting documents, context hygiene",4,,ingestion,2027/09/22,,,,
+5,2027/09/22,High touch,5,planning-and-memory,"Specs, Planning & Memory","Plan mode; specs with guardrails; AGENTS.md and CLAUDE.md; teams form",5,,recreate-app,2027/09/29,,,,
+6,2027/09/29,Leverage,6,skills,Skills,"Using and building skills; commands as skills",6,,video-game,2027/10/06,,,,
+7,2027/10/06,Delegate + verify,7,verification,The Verification Harness,"Tests, hooks, debugging, and review agents",7,,review-harness,2027/10/13,,,,
+8,2027/10/13,Automate verification,8,continuous-integration,CI & Cloud Robots,"GitHub Actions on push; scheduled jobs; secrets",8,,cloud-robot,2027/10/20,1,proposal,Proposal,2027/10/13
+9,2027/10/20,Apply,9,data-analysis,Agentic Data Analysis,"polars, plotnine, and Great Tables with data skills; team studio begins",9,,data-analysis,2027/10/27,,,,
+10,2027/10/27,Embed,10,llm-apis,LLMs Inside Your Code,"Calling LLMs from Python with chatlas: structured data, tools, evals",10,,ai-tool,2027/11/03,,,,
+11,2027/11/03,Connect,11,mcp,MCP,"Using and building MCP servers; prompt-injection risks",11,,mcp-server,2027/11/17,,,,
+12,2027/11/10,Orchestrate,12,multi-agent,Multi-Agent & Team Workflows,"Subagents, parallel agents in worktrees, PR review and merging",,,,,2,interim-report,Interim Report,2027/11/10
+13,2027/11/17,Team project,,,Team Studio,"Team work; instructor circulates and gives direction",,,,,,,,
+14,2027/11/24,,,,Thanksgiving — no class,,,,,,,,,
+15,2027/12/01,Team project,,,Studio & Final Checkpoint,"Last class meeting; final code review",,,,,3,final-report,Final Report,2027/12/01
+16,2027/12/10,Team project,,,Final Presentations,"During the final exam slot (date TBD)",,,,,4,presentation,Presentation,2027/12/10

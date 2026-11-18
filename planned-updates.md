@@ -52,7 +52,7 @@ Inputs reviewed:
 | Title | **Build with AI: An Introduction to Agentic Engineering** |
 | Number | **EMSE 4197** (special topics, for now) |
 | Semester | **Fall 2027** |
-| Meeting time | Assumed **Thursdays 3:30–6:00 PM**, unconfirmed for fall (see open questions) |
+| Meeting time | **Wednesdays** (John's fall teaching day). The 3:30–6:00 PM time and the room are carried over from the original plan and unconfirmed (see open questions) |
 | Language | Mostly **Python**. The course website itself stays R/Quarto |
 | Repo / URL | Still `intro-to-agentic-engineering`. Renaming is John's call |
 
@@ -62,14 +62,16 @@ Inputs reviewed:
 
 ### Calendar facts (GWU Fall 2027)
 
-- Classes start Mon Aug 23. Labor Day is Mon Sep 6, which doesn't affect Thursdays.
-- **Fall break:** Thu–Fri Oct 7–8. **No class Thu Oct 7.**
-- **Thanksgiving:** Nov 22–27. **No class Thu Nov 25.**
-- Last day of classes: Mon Dec 6.
-- **Designated Thursday: Tue Dec 7.** Thursday classes meet that day.
+- Classes start Mon Aug 23, so the first Wednesday meeting is **Aug 25**.
+- Labor Day is Mon Sep 6, and fall break is Thu–Fri Oct 7–8. Neither affects
+  Wednesdays, so **there is no break in October**.
+- **Thanksgiving:** Nov 22–27. **No class Wed Nov 24.** This is the only day off.
+- Last day of classes: Mon Dec 6. The Designated Thursday (Tue Dec 7) is for
+  Thursday sections, so the **last Wednesday meeting is Dec 1**.
 - Make-up/reading day Thu Dec 9. Final exams Fri Dec 10 – Thu Dec 16.
 
-That gives **14 meetings**, plus a final-exam slot (date set by the registrar).
+That gives **14 meetings** (Aug 25 – Dec 1), plus a final-exam slot (date set by the
+registrar).
 
 ### Two parts, one gradient
 
@@ -84,7 +86,7 @@ as two parts:
   embed LLMs inside your own code, connect agents to tools (MCP), then orchestrate
   multiple agents.
 
-Project-only meetings drop from **6 to 2**, with presentations in the exam slot. To
+Project-only meetings drop from **6 to 2** (Nov 17 and Dec 1), with presentations in the exam slot. To
 make up for it, **from meeting 9 onward the last ~45 minutes of each class is team
 studio time** with instructor check-ins. This is the "structured in-person social
 learning" MIT recommends (§3.1.4).
@@ -96,22 +98,21 @@ reading reflection** on the embedded reading.
 
 | # | Date | Class (hands-on) | Take-home build + embedded reading | Rung |
 |---|---|---|---|---|
-| 1 | Thu Aug 26 | **Welcome & Git by hand.** Install everything (terminal, Git, VS Code/Positron, uv, Quarto, an agent CLI). Git & GitHub **without an agent**: commit, branch, PR, deploy a "hello" page to GitHub Pages. Discuss the course AI policy and why | **B1 Git warm-up** (small): repo with a clean commit history, one merged PR, a live Pages page. *Read:* MIT report §1 guiding principles (excerpt) **or** Sarkar, "How to stop AI from killing your critical thinking" (TED) | By hand |
-| 2 | Thu Sep 2 | **How LLMs work (and fail).** Tokens and embeddings; attention at 3Blue1Brown depth; next-token prediction, sampling and temperature; pre-training → post-training → reasoning models; context windows; hallucination; tool calling; *agent = LLM + tools + a loop*. Cost, environmental footprint, the model landscape. Browser demos only (Transformer Explainer, a tokenizer playground) | **B2 Probe the model**: 5 small experiments (tokenization quirks, sampling variance, context limits, fabricated citations, sycophancy), written up as a `.qmd` report in a repo. *Read:* Messeri & Crockett (2024), "AI and illusions of understanding in scientific research"; 3Blue1Brown videos 5–7 | Chat |
-| 3 | Thu Sep 9 | **Agents.** Claude Code / Codex as a *harness* around an LLM: tools, permissions, safeguards. Agent failure modes: over-engineering, skipping verification, stopping short of the goal, risky file/data actions, and when to intervene | **B3 Personal website**: agent-built, clean history, deployed on Pages. *Read:* McKinney, "Vibe coding is dangerous, agentic engineering isn't"; Anthropic, "Building effective agents" | High touch |
-| 4 | Thu Sep 16 | **Context engineering.** The attention budget and context rot; injecting documents; Markdown over PDF (markitdown); session hygiene (fresh sessions, `/compact`, `/clear`); the "plugin tax" | **B4 Ingestion**, student's choice: a literature review on a topic **or** a novel in an admired author's voice. *Read:* Anthropic, "Effective context engineering for AI agents"; Chroma, "Context Rot" | High touch |
-| 5 | Thu Sep 23 | **Specs, planning & project memory.** Plan mode; writing a spec with **guardrails** (each MUST / MUST NOT paired with a check, a test or a named reviewer); AGENTS.md / CLAUDE.md. **Teams form** | **B5 Recreate an app from a spec** (e.g. Wordle, a pomodoro timer with stats). The student writes the spec and guardrails *before* any code. *Read:* McKinney, "From human ergonomics to agent ergonomics" (or a spec-driven-development piece, TBD) | High touch |
-| 6 | Thu Sep 30 | **Skills.** Install and use skills, then write one (the Agent Skills standard works in both Claude Code and Codex). Progressive disclosure. Custom commands now live inside skills (check current docs). Supply-chain caution with third-party skills | **B6 Video game**: assemble game-dev skills, build, extend, plus one custom skill of your own. **Due Oct 14** (spans fall break). *Read:* Anthropic's Agent Skills engineering post; the superpowers README | Leverage |
-| — | Thu Oct 7 | *Fall break, no class* | | |
-| 7 | Thu Oct 14 | **The verification harness.** pytest; reproduce → failing test → root cause → fix; **hooks** that auto-run ruff + pytest; **review agents and skills** for agent-generated code. Course norm: *every bug becomes a permanent check.* **Team proposal due** | **B7 Review harness**: clear a provided planted-bug repo's issue backlog via agent fixes + PRs, then build your own review skill or subagent and run it over your fixes. Graded partly with **hidden holdout tests** the agent never saw (an O'Reilly idea). *Read:* Shah & Oram, "When AI can code…" | Delegate + verify |
-| 8 | Thu Oct 21 | **CI & cloud robots.** GitHub Actions on push (watch it go red → green); scheduled jobs; secrets. CI makes the harness "a rule, not a habit" | **B8 Cloud robot**: a scheduled Action that does something useful daily (scraper, digest, auto-updating README or badge). No LLM required. *Read:* Willison, "Git scraping" | Automate verification |
-| 9 | Thu Oct 28 | **Application: agentic data analysis.** polars + plotnine + Great Tables, using `.py` scripts and `.qmd` reports. Data skills: the official plotnine skill, the Great Tables skill, holtzy's `roast-my-chart` as a chart *reviewer*, and a student-written "house style" skill. Verifying the numbers, not just the plots. *Team studio starts* | **B9 Data analysis report** (`.qmd`, deployed). The dataset includes a messy **free-text column** that's hard to analyze, which sets up meeting 10. *Read:* plotnine skill announcement + Data-to-Viz caveats (TBD) | Apply |
-| 10 | Thu Nov 4 | **LLMs inside your code (chatlas).** Why and when to call an LLM from Python; system prompts; API keys and `.env`; **structured data** → polars; `register_tool` (tool calling); tokens and cost; swapping providers in one line; a tiny **eval** set | **B10 AI-powered tool**: classify or extract structure from B9's free-text column, with a ~20-example labeled eval reporting accuracy. *Read:* Husain, "Your AI product needs evals" | Embed |
-| 11 | Thu Nov 11 | **MCP.** What the protocol is; using MCP servers from the agent (e.g. Playwright, GitHub); building a server in Python with FastMCP; connecting to it from chatlas (async-only, so `asyncio.run`). Security: prompt injection, the "lethal trifecta", trusting third-party servers | **B11 MCP server**: expose your own data or tool, then use it from your agent *and* from a chatlas script. **Due Dec 2** (spans Thanksgiving). *Read:* Willison, "The lethal trifecta for AI agents" | Connect |
-| 12 | Thu Nov 18 | **Multi-agent orchestration + team workflows.** Subagents; parallel agents in **git worktrees**, each opening a PR; humans review and merge; resolving conflicts. Replaces the old PR / fork-and-merge work sessions. **Interim report due** | No separate build; applied in the team project and documented in the final report. *Read (debate pair):* Anthropic, "How we built our multi-agent research system" vs. Cognition, "Don't build multi-agents" | Orchestrate |
-| — | Thu Nov 25 | *Thanksgiving, no class* | | |
-| 13 | Thu Dec 2 | **Team studio**: instructor circulates, audits, gives direction | | |
-| 14 | **Tue Dec 7** | **Studio + final checkpoint** (Designated Thursday). **Final report due** | | |
+| 1 | Wed Aug 25 | **Welcome & Git by hand.** Install everything (terminal, Git, VS Code/Positron, uv, Quarto, an agent CLI). Git & GitHub **without an agent**: commit, branch, PR, deploy a "hello" page to GitHub Pages. Discuss the course AI policy and why | **B1 Git warm-up** (small): repo with a clean commit history, one merged PR, a live Pages page. *Read:* MIT report §1 guiding principles (excerpt) **or** Sarkar, "How to stop AI from killing your critical thinking" (TED) | By hand |
+| 2 | Wed Sep 1 | **How LLMs work (and fail).** Tokens and embeddings; attention at 3Blue1Brown depth; next-token prediction, sampling and temperature; pre-training → post-training → reasoning models; context windows; hallucination; tool calling; *agent = LLM + tools + a loop*. Cost, environmental footprint, the model landscape. Browser demos only (Transformer Explainer, a tokenizer playground) | **B2 Probe the model**: 5 small experiments (tokenization quirks, sampling variance, context limits, fabricated citations, sycophancy), written up as a `.qmd` report in a repo. *Read:* Messeri & Crockett (2024), "AI and illusions of understanding in scientific research"; 3Blue1Brown videos 5–7 | Chat |
+| 3 | Wed Sep 8 | **Agents.** Claude Code / Codex as a *harness* around an LLM: tools, permissions, safeguards. Agent failure modes: over-engineering, skipping verification, stopping short of the goal, risky file/data actions, and when to intervene | **B3 Personal website**: agent-built, clean history, deployed on Pages. *Read:* McKinney, "Vibe coding is dangerous, agentic engineering isn't"; Anthropic, "Building effective agents" | High touch |
+| 4 | Wed Sep 15 | **Context engineering.** The attention budget and context rot; injecting documents; Markdown over PDF (markitdown); session hygiene (fresh sessions, `/compact`, `/clear`); the "plugin tax" | **B4 Ingestion**, student's choice: a literature review on a topic **or** a novel in an admired author's voice. *Read:* Anthropic, "Effective context engineering for AI agents"; Chroma, "Context Rot" | High touch |
+| 5 | Wed Sep 22 | **Specs, planning & project memory.** Plan mode; writing a spec with **guardrails** (each MUST / MUST NOT paired with a check, a test or a named reviewer); AGENTS.md / CLAUDE.md. **Teams form** | **B5 Recreate an app from a spec** (e.g. Wordle, a pomodoro timer with stats). The student writes the spec and guardrails *before* any code. *Read:* McKinney, "From human ergonomics to agent ergonomics" (or a spec-driven-development piece, TBD) | High touch |
+| 6 | Wed Sep 29 | **Skills.** Install and use skills, then write one (the Agent Skills standard works in both Claude Code and Codex). Progressive disclosure. Custom commands now live inside skills (check current docs). Supply-chain caution with third-party skills | **B6 Video game**: assemble game-dev skills, build, extend, plus one custom skill of your own. *Read:* Anthropic's Agent Skills engineering post; the superpowers README | Leverage |
+| 7 | Wed Oct 6 | **The verification harness.** pytest; reproduce → failing test → root cause → fix; **hooks** that auto-run ruff + pytest; **review agents and skills** for agent-generated code. Course norm: *every bug becomes a permanent check.* | **B7 Review harness**: clear a provided planted-bug repo's issue backlog via agent fixes + PRs, then build your own review skill or subagent and run it over your fixes. Graded partly with **hidden holdout tests** the agent never saw (an O'Reilly idea). *Read:* Shah & Oram, "When AI can code…" | Delegate + verify |
+| 8 | Wed Oct 13 | **CI & cloud robots.** GitHub Actions on push (watch it go red → green); scheduled jobs; secrets. CI makes the harness "a rule, not a habit". **Team proposal due** | **B8 Cloud robot**: a scheduled Action that does something useful daily (scraper, digest, auto-updating README or badge). No LLM required. *Read:* Willison, "Git scraping" | Automate verification |
+| 9 | Wed Oct 20 | **Application: agentic data analysis.** polars + plotnine + Great Tables, using `.py` scripts and `.qmd` reports. Data skills: the official plotnine skill, the Great Tables skill, holtzy's `roast-my-chart` as a chart *reviewer*, and a student-written "house style" skill. Verifying the numbers, not just the plots. *Team studio starts* | **B9 Data analysis report** (`.qmd`, deployed). The dataset includes a messy **free-text column** that's hard to analyze, which sets up meeting 10. *Read:* plotnine skill announcement + Data-to-Viz caveats (TBD) | Apply |
+| 10 | Wed Oct 27 | **LLMs inside your code (chatlas).** Why and when to call an LLM from Python; system prompts; API keys and `.env`; **structured data** → polars; `register_tool` (tool calling); tokens and cost; swapping providers in one line; a tiny **eval** set | **B10 AI-powered tool**: classify or extract structure from B9's free-text column, with a ~20-example labeled eval reporting accuracy. *Read:* Husain, "Your AI product needs evals" | Embed |
+| 11 | Wed Nov 3 | **MCP.** What the protocol is; using MCP servers from the agent (e.g. Playwright, GitHub); building a server in Python with FastMCP; connecting to it from chatlas (async-only, so `asyncio.run`). Security: prompt injection, the "lethal trifecta", trusting third-party servers | **B11 MCP server**: expose your own data or tool, then use it from your agent *and* from a chatlas script. **Due Nov 17** (two weeks, since there's no new build on Nov 10). *Read:* Willison, "The lethal trifecta for AI agents" | Connect |
+| 12 | Wed Nov 10 | **Multi-agent orchestration + team workflows.** Subagents; parallel agents in **git worktrees**, each opening a PR; humans review and merge; resolving conflicts. Replaces the old PR / fork-and-merge work sessions. **Interim report due** | No separate build; applied in the team project and documented in the final report. *Read (debate pair):* Anthropic, "How we built our multi-agent research system" vs. Cognition, "Don't build multi-agents" | Orchestrate |
+| 13 | Wed Nov 17 | **Team studio**: instructor circulates, audits, gives direction | | |
+| — | Wed Nov 24 | *Thanksgiving, no class* | | |
+| 14 | Wed Dec 1 | **Studio + final checkpoint** (last class meeting). **Final report due** | | |
 | Exam | Dec 10–16 (slot TBD) | **Final presentations** | | |
 
 ### What changed from `course-plan.md`
@@ -281,26 +282,27 @@ framing, NotebookLM-centred literature review, and Google-Doc submissions.
 |---|---|---|
 | Builds | **40%** | 11 builds, lowest dropped, 10 × 4%. Check-graded, one resubmission |
 | Oral code walkthroughs | **10%** | 2 × 5%, in class |
-| Team project: proposal | 5% | Due Oct 14 (meeting 7) |
-| Team project: interim report | 10% | Due Nov 18 (meeting 12) |
-| Team project: final report | 15% | Due Tue Dec 7 (meeting 14) |
+| Team project: proposal | 5% | Due Oct 13 (meeting 8) |
+| Team project: interim report | 10% | Due Nov 10 (meeting 12) |
+| Team project: final report | 15% | Due Dec 1 (meeting 14) |
 | Final presentation | 10% | Final-exam slot |
 | Participation (attendance-driven) | 10% | Thresholds carried over from `class-factory.md` |
 
-Team timeline: teams form **Sep 23** → proposal **Oct 14** → interim **Nov 18** →
-final report **Dec 7** → presentations in the **exam slot**.
+Team timeline: teams form **Sep 22** → proposal **Oct 13** → interim **Nov 10** →
+final report **Dec 1** → presentations in the **exam slot**.
 
 The schedule CSV allows one project deliverable per row, which is why the final
-report sits on Dec 7 rather than in the exam slot. If the report should come *after*
+report sits on Dec 1 rather than in the exam slot. If the report should come *after*
 the presentations, the CSV needs an extra row.
 
 ---
 
 ## I. Open questions
 
-1. **Meeting day, time and room for Fall 2027.** Still Thursdays 3:30–6:00?
-   Everything above assumes Thursdays. A different day shifts all the dates.
-2. **Presentations:** final-exam slot (current plan) or Tue Dec 7? And should the
+1. **Meeting time and room for Fall 2027.** The day is Wednesday. Is 3:30–6:00 PM
+   still right, and which room? (Time and room are carried over from the original
+   plan.)
+2. **Presentations:** final-exam slot (current plan) or an extra class meeting? And should the
    final report be due before or after the presentations?
 3. **Prerequisites:** keep "one programming course"? Require Python specifically?
 4. **Load:** 11 builds + 2 walkthroughs + team project. Should B1 and B2 be
@@ -369,8 +371,8 @@ so moving and renaming is safe.
   - `title: "EMSE 4197: Build with AI (Fall 2027)"`
   - `name: "Build with AI: An Introduction to Agentic Engineering"`
   - `number: EMSE 4197`, `semester: Fall 2027`
-  - `dates: "Aug. 26 - Dec. 7, 2027"`
-  - weekday/time/room stay as-is pending open question 1
+  - `dates: "Aug. 25 - Dec. 1, 2027"`
+  - `weekday: "Wednesdays"`; time/room stay as-is pending open question 1
 - `_quarto.yml`: `website.title: EMSE 4197`, and a description mentioning Fall 2027
   and "Build with AI".
 - `index.qmd` heading, `README.md`, `DESCRIPTION` `Title:`: new number, title and
@@ -379,28 +381,26 @@ so moving and renaming is safe.
 
 ### K3. `schedule.csv` (replace contents; same columns, so `get_schedule()` is unchanged)
 
-`week` is the semester week, counting from Aug 23. Break rows have no class or
-build.
+`week` is the row number (meetings 1–13, the Thanksgiving break row, then the last class and the exam slot). Break rows have no class or build.
 
 ```csv
 week,date,theme,n_class,stub_class,name_class,description_class,n_assign,name_assign,stub_assign,due_assign,n_project,stub_project,name_project,due_project
-1,2027/08/26,By hand,1,git-github-pages,"Git, GitHub & Pages","Setup; Git and GitHub by hand: commit, branch, PR; deploying to GitHub Pages",1,,git-warmup,2027/09/02,,,,
-2,2027/09/02,Chat,2,how-llms-work,How LLMs Work (and Fail),"Tokens, attention, sampling, context windows, hallucination, tool calling",2,,probe-the-model,2027/09/09,,,,
-3,2027/09/09,High touch,3,agents,Agents,"The agent loop and harness; tools, permissions, and failure modes",3,,personal-website,2027/09/16,,,,
-4,2027/09/16,High touch,4,context-engineering,Context Engineering,"Attention budget, injecting documents, context hygiene",4,,ingestion,2027/09/23,,,,
-5,2027/09/23,High touch,5,planning-and-memory,"Specs, Planning & Memory","Plan mode; specs with guardrails; AGENTS.md and CLAUDE.md; teams form",5,,recreate-app,2027/09/30,,,,
-6,2027/09/30,Leverage,6,skills,Skills,"Using and building skills; commands as skills",6,,video-game,2027/10/14,,,,
-7,2027/10/07,,,,Fall Break — no class,,,,,,,,,
-8,2027/10/14,Delegate + verify,7,verification,The Verification Harness,"Tests, hooks, debugging, and review agents",7,,review-harness,2027/10/21,1,proposal,Proposal,2027/10/14
-9,2027/10/21,Automate verification,8,continuous-integration,CI & Cloud Robots,"GitHub Actions on push; scheduled jobs; secrets",8,,cloud-robot,2027/10/28,,,,
-10,2027/10/28,Apply,9,data-analysis,Agentic Data Analysis,"polars, plotnine, and Great Tables with data skills; team studio begins",9,,data-analysis,2027/11/04,,,,
-11,2027/11/04,Embed,10,llm-apis,LLMs Inside Your Code,"Calling LLMs from Python with chatlas: structured data, tools, evals",10,,ai-tool,2027/11/11,,,,
-12,2027/11/11,Connect,11,mcp,MCP,"Using and building MCP servers; prompt-injection risks",11,,mcp-server,2027/12/02,,,,
-13,2027/11/18,Orchestrate,12,multi-agent,Multi-Agent & Team Workflows,"Subagents, parallel agents in worktrees, PR review and merging",,,,,2,interim-report,Interim Report,2027/11/18
-14,2027/11/25,,,,Thanksgiving — no class,,,,,,,,,
-15,2027/12/02,Team project,,,Team Studio,"Team work; instructor circulates and gives direction",,,,,,,,
-16,2027/12/07,Team project,,,Studio & Final Checkpoint,"Designated Thursday (meets Tue Dec 7); final code review",,,,,3,final-report,Final Report,2027/12/07
-17,2027/12/10,Team project,,,Final Presentations,"During the final exam slot (date TBD)",,,,,4,presentation,Presentation,2027/12/10
+1,2027/08/25,By hand,1,git-github-pages,"Git, GitHub & Pages","Setup; Git and GitHub by hand: commit, branch, PR; deploying to GitHub Pages",1,,git-warmup,2027/09/01,,,,
+2,2027/09/01,Chat,2,how-llms-work,How LLMs Work (and Fail),"Tokens, attention, sampling, context windows, hallucination, tool calling",2,,probe-the-model,2027/09/08,,,,
+3,2027/09/08,High touch,3,agents,Agents,"The agent loop and harness; tools, permissions, and failure modes",3,,personal-website,2027/09/15,,,,
+4,2027/09/15,High touch,4,context-engineering,Context Engineering,"Attention budget, injecting documents, context hygiene",4,,ingestion,2027/09/22,,,,
+5,2027/09/22,High touch,5,planning-and-memory,"Specs, Planning & Memory","Plan mode; specs with guardrails; AGENTS.md and CLAUDE.md; teams form",5,,recreate-app,2027/09/29,,,,
+6,2027/09/29,Leverage,6,skills,Skills,"Using and building skills; commands as skills",6,,video-game,2027/10/06,,,,
+7,2027/10/06,Delegate + verify,7,verification,The Verification Harness,"Tests, hooks, debugging, and review agents",7,,review-harness,2027/10/13,,,,
+8,2027/10/13,Automate verification,8,continuous-integration,CI & Cloud Robots,"GitHub Actions on push; scheduled jobs; secrets",8,,cloud-robot,2027/10/20,1,proposal,Proposal,2027/10/13
+9,2027/10/20,Apply,9,data-analysis,Agentic Data Analysis,"polars, plotnine, and Great Tables with data skills; team studio begins",9,,data-analysis,2027/10/27,,,,
+10,2027/10/27,Embed,10,llm-apis,LLMs Inside Your Code,"Calling LLMs from Python with chatlas: structured data, tools, evals",10,,ai-tool,2027/11/03,,,,
+11,2027/11/03,Connect,11,mcp,MCP,"Using and building MCP servers; prompt-injection risks",11,,mcp-server,2027/11/17,,,,
+12,2027/11/10,Orchestrate,12,multi-agent,Multi-Agent & Team Workflows,"Subagents, parallel agents in worktrees, PR review and merging",,,,,2,interim-report,Interim Report,2027/11/10
+13,2027/11/17,Team project,,,Team Studio,"Team work; instructor circulates and gives direction",,,,,,,,
+14,2027/11/24,,,,Thanksgiving — no class,,,,,,,,,
+15,2027/12/01,Team project,,,Studio & Final Checkpoint,"Last class meeting; final code review",,,,,3,final-report,Final Report,2027/12/01
+16,2027/12/10,Team project,,,Final Presentations,"During the final exam slot (date TBD)",,,,,4,presentation,Presentation,2027/12/10
 ```
 
 The exam-row date (Dec 10) is a placeholder until the registrar posts the slot.

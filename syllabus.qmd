@@ -110,9 +110,9 @@ Item | Weight | Notes
 -----|--------|----------------------------------
 Individual Builds (11) | 40% | Lowest dropped; 10 builds × 4%; one resubmission allowed
 Oral Code Walkthroughs (2) | 10% | 2 × 5%, in class
-Team Project: Proposal | 5% | Teams of 3–4 (Oct 14)
-Team Project: Interim Report | 10% | (Nov 18)
-Team Project: Final Report | 15% | (Dec 7)
+Team Project: Proposal | 5% | Teams of 3–4 (Oct 13)
+Team Project: Interim Report | 10% | (Nov 10)
+Team Project: Final Report | 15% | (Dec 1)
 Final Presentation | 10% | (Final exam slot)
 Participation / Attendance | 10% | Yes, attendance is taken
 

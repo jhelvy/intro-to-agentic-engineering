@@ -56,7 +56,7 @@ quarto render    # build to _site/
 - `_variables.yml`: repo/site URLs, Slack link, and room are guesses — confirm.
 - No logo/favicon yet; image references were intentionally omitted from
   `_quarto.yml` to avoid broken builds.
-- Meeting day/time/room for Fall 2027 are assumed (Thursdays 3:30–6:00); the
+- Meeting day/time/room for Fall 2027 are assumed (Wednesdays 3:30–6:00; the time and room are carried over from the original plan); the
   exam-slot date is a placeholder. See open questions in `planned-updates.md`.
 - Most `class/`, `hw/`, and `project/` pages are placeholders awaiting content.
 - Python course: `.py` + `.qmd` only, **never `.ipynb`** (Quarto's Jupyter engine
