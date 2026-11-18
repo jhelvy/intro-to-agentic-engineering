@@ -25,9 +25,9 @@ request reviews, issues, and parallel agents in git worktrees) live in Meeting 1
 
 Item | Weight | Due
 -----|--------|-----------------
-[Proposal](1-proposal.qmd) | 5% | Oct 14 (Meeting 7)
-[Interim Report](2-interim-report.qmd) | 10% | Nov 18 (Meeting 12)
-[Final Report](3-final-report.qmd) | 15% | Dec 7 (Meeting 14)
+[Proposal](1-proposal.qmd) | 5% | Oct 13 (Meeting 8)
+[Interim Report](2-interim-report.qmd) | 10% | Nov 10 (Meeting 12)
+[Final Report](3-final-report.qmd) | 15% | Dec 1 (Meeting 14)
 [Final Presentation](4-presentation.qmd) | 10% | Final exam slot (date TBD)
 
 </div>
