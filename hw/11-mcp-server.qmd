@@ -1,0 +1,18 @@
+---
+title: "Build 11: MCP Server"
+params:
+  number: 11
+  purpose: "Connect agents to tools: build an MCP server that exposes your own data or tool, then use it from both your coding agent and a chatlas script."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

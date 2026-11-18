@@ -1,0 +1,18 @@
+---
+title: "Build 2: Probe the Model"
+params:
+  number: 2
+  purpose: "See how LLMs work and fail firsthand by running five small experiments (tokenization quirks, sampling variance, context limits, fabricated citations, and sycophancy) and writing them up as a Quarto report."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

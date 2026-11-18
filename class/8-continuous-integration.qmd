@@ -1,0 +1,12 @@
+---
+title: "CI & Cloud Robots"
+params:
+  class: "8-continuous-integration"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

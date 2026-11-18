@@ -1,9 +1,0 @@
----
-title: "Skills"
-subtitle: "EMSE 6992 · Week 4"
-format: revealjs
----
-
-## Slides coming soon
-
-<!-- Slide content for this week will be built here. -->

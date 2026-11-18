@@ -1,0 +1,18 @@
+---
+title: "Build 3: Personal Website"
+params:
+  number: 3
+  purpose: "Direct an agent for the first time on a real build: ship a personal website in a framework of your choice, with a clean Git history, deployed to GitHub Pages."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

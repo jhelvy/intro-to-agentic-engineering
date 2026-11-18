@@ -1,6 +1,6 @@
 ---
 title: "Git, GitHub & Pages"
-subtitle: "EMSE 6992 · Week 1"
+subtitle: "EMSE 4197 · Week 1"
 format: revealjs
 ---
 

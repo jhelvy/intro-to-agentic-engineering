@@ -1,0 +1,12 @@
+---
+title: "How LLMs Work (and Fail)"
+params:
+  class: "2-how-llms-work"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

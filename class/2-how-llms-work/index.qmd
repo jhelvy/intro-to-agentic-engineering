@@ -1,0 +1,9 @@
+---
+title: "How LLMs Work (and Fail)"
+subtitle: "EMSE 4197 · Week 2"
+format: revealjs
+---
+
+## Slides coming soon
+
+<!-- Slide content for this week will be built here. -->

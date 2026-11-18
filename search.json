@@ -4,7 +4,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Instructor\nCourse\n\n\n\n\n John Paul Helveston\n Thursdays\n\n\n Tompkins 201\n Jan. 14 - Apr. 29, 2027\n\n\n jph@gwu.edu\n 3:30PM - 6:00PM EST\n\n\n\n\n\n\nThe bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\n\n\n\nStudents must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. You do not need to be an expert, but you should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
+    "text": "Instructor\nCourse\n\n\n\n\n John Paul Helveston\n Thursdays\n\n\n Tompkins 201\n Aug. 26 - Dec. 7, 2027\n\n\n jph@gwu.edu\n 3:30PM - 6:00PM EST\n\n\n\n\n\n\nThe bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\n\n\n\nStudents must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. You do not need to be an expert, but you should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
     "crumbs": [
       "Syllabus"
     ]
@@ -74,7 +74,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "All assignments are due by 11:59pm on the due date. Dates are tentative and will be confirmed against the official Spring 2027 academic calendar.\n\n\n\n\n\nWeek\nDate\nTrust Level\nClass\nBuild (Individual)\nTeam Project\n\n\n\n\n1\nJan 14\nHigh touch\nGit, GitHub & Pages\nTerminal & agent setup; first repo, commit, and PR; deploying to GitHub Pages\nBuild 1\nDue: Jan 21\n\n\n\n2\nJan 21\nHigh touch\nContext & Document Injection\nFeeding the agent source material; grounded summarizing; context hygiene\nBuild 2\nDue: Jan 28\n\n\n\n3\nJan 28\nHigh touch\nPlanning & Project Memory\nPlan mode; CLAUDE.md, memory, and project configuration\nBuild 3\nDue: Feb 04\n\n\n\n4\nFeb 04\nLeverage\nSkills\nUsing and building custom skills; teams form this week\nBuild 4\nDue: Feb 11\n\n\n\n5\nFeb 11\nLeverage\nWorkflow Automation\nCustom slash commands and hooks layered on skills\nBuild 5\nDue: Feb 18\n\n\n\n6\nFeb 18\nDelegate + verify\nDebugging & Issue Resolution\nAgent-driven debugging; resolving a repo's issues; review agents\nBuild 6\nDue: Feb 25\nProposal\nDue: Feb 18\n\n\n7\nFeb 25\nAutomate verification\nContinuous Integration\nAutomated testing with GitHub Actions; scheduled jobs\nBuild 7\nDue: Mar 04\n\n\n\n8\nMar 04\nOrchestrate\nMulti-Agent Orchestration\nPlanner/coder/tester roles; supervised autonomy\nBuild 8\nDue: Mar 18\n\n\n\n9\nMar 11\n\nSpring Break — no class\n\n\n\n\n\n10\nMar 18\nTeam project\nProject Kickoff & Work Session\nTeam project work; deploying apps beyond static sites\n\n\n\n\n11\nMar 25\nTeam project\nWork Session: PRs & Issues\nWorking as a team through pull requests and issues\n\nInterim Report\nDue: Mar 25\n\n\n12\nApr 01\nTeam project\nWork Session: Fork & Merge\nForking, branching, and merging workflows\n\n\n\n\n13\nApr 08\nTeam project\nWork Session\nTeam work; instructor circulates and gives direction\n\n\n\n\n14\nApr 15\nTeam project\nWork Session\nTeam work; instructor circulates and gives direction\n\n\n\n\n15\nApr 22\nTeam project\nFinal Checkpoint\nFinal preparations and code review\n\nFinal Report\nDue: Apr 22\n\n\n16\nApr 29\nTeam project\nFinal Presentations\nIn-class presentation showcase with Q&A\n\nPresentation\nDue: Apr 29",
+    "text": "All assignments are due by 11:59pm on the due date. Dates are tentative and will be confirmed against the official Spring 2027 academic calendar.\n\n\n\n\n\nWeek\nDate\nTrust Level\nClass\nBuild (Individual)\nTeam Project\n\n\n\n\n1\nAug 26\nBy hand\nGit, GitHub & Pages\nSetup; Git and GitHub by hand: commit, branch, PR; deploying to GitHub Pages\nBuild 1\nDue: Sep 02\n\n\n\n2\nSep 02\nChat\nHow LLMs Work (and Fail)\nTokens, attention, sampling, context windows, hallucination, tool calling\nBuild 2\nDue: Sep 09\n\n\n\n3\nSep 09\nHigh touch\nAgents\nThe agent loop and harness; tools, permissions, and failure modes\nBuild 3\nDue: Sep 16\n\n\n\n4\nSep 16\nHigh touch\nContext Engineering\nAttention budget, injecting documents, context hygiene\nBuild 4\nDue: Sep 23\n\n\n\n5\nSep 23\nHigh touch\nSpecs, Planning & Memory\nPlan mode; specs with guardrails; AGENTS.md and CLAUDE.md; teams form\nBuild 5\nDue: Sep 30\n\n\n\n6\nSep 30\nLeverage\nSkills\nUsing and building skills; commands as skills\nBuild 6\nDue: Oct 14\n\n\n\n7\nOct 07\n\nFall Break — no class\n\n\n\n\n\n8\nOct 14\nDelegate + verify\nThe Verification Harness\nTests, hooks, debugging, and review agents\nBuild 7\nDue: Oct 21\nProposal\nDue: Oct 14\n\n\n9\nOct 21\nAutomate verification\nCI & Cloud Robots\nGitHub Actions on push; scheduled jobs; secrets\nBuild 8\nDue: Oct 28\n\n\n\n10\nOct 28\nApply\nAgentic Data Analysis\npolars, plotnine, and Great Tables with data skills; team studio begins\nBuild 9\nDue: Nov 04\n\n\n\n11\nNov 04\nEmbed\nLLMs Inside Your Code\nCalling LLMs from Python with chatlas: structured data, tools, evals\nBuild 10\nDue: Nov 11\n\n\n\n12\nNov 11\nConnect\nMCP\nUsing and building MCP servers; prompt-injection risks\nBuild 11\nDue: Dec 02\n\n\n\n13\nNov 18\nOrchestrate\nMulti-Agent & Team Workflows\nSubagents, parallel agents in worktrees, PR review and merging\n\nInterim Report\nDue: Nov 18\n\n\n14\nNov 25\n\nThanksgiving — no class\n\n\n\n\n\n15\nDec 02\nTeam project\nTeam Studio\nTeam work; instructor circulates and gives direction\n\n\n\n\n16\nDec 07\nTeam project\nStudio & Final Checkpoint\nDesignated Thursday (meets Tue Dec 7); final code review\n\nFinal Report\nDue: Dec 07\n\n\n17\nDec 10\nTeam project\nFinal Presentations\nDuring the final exam slot (date TBD)\n\nPresentation\nDue: Dec 10",
     "crumbs": [
       "Schedule"
     ]
@@ -84,7 +84,7 @@
     "href": "project/4-presentation.html",
     "title": "Team Project: Final Presentation",
     "section": "",
-    "text": "Due: Apr 29 by 11:59pm\nWeight: This deliverable is worth 10% of your final grade.\nPurpose: Present your project to the class — articulate the problem, your solution, and the lessons you learned — in a short talk with Q&A.",
+    "text": "Due: Dec 10 by 11:59pm\nWeight: This deliverable is worth 10% of your final grade.\nPurpose: Present your project to the class — articulate the problem, your solution, and the lessons you learned — in a short talk with Q&A.",
     "crumbs": [
       "Team Project",
       "Final Presentation"
@@ -106,7 +106,7 @@
     "href": "project/2-interim-report.html",
     "title": "Team Project: Interim Report",
     "section": "",
-    "text": "Due: Mar 25 by 11:59pm\nWeight: This deliverable is worth 10% of your final grade.\nPurpose: Report progress to date, the challenges you’ve hit, your next steps, and evidence of continued GitHub collaboration (commits, PRs, conversation logs).",
+    "text": "Due: Nov 18 by 11:59pm\nWeight: This deliverable is worth 10% of your final grade.\nPurpose: Report progress to date, the challenges you’ve hit, your next steps, and evidence of continued GitHub collaboration (commits, PRs, conversation logs).",
     "crumbs": [
       "Team Project",
       "Interim Report"
@@ -135,141 +135,178 @@
     ]
   },
   {
-    "objectID": "hw/8-simulation.html",
-    "href": "hw/8-simulation.html",
-    "title": "Build 8: Simulation Experiment",
+    "objectID": "hw/9-data-analysis.html",
+    "href": "hw/9-data-analysis.html",
+    "title": "Build 9: Agentic Data Analysis",
     "section": "",
-    "text": "Due: Mar 18 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Orchestrate specialized agents — a planner, a coder, and a tester — to design, implement, and validate a simulation experiment with supervised autonomy, where you review only the final results.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Nov 04 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Apply the workflow to real data: use an agent with polars, plotnine, and Great Tables to produce a verified, deployed Quarto report on a dataset that includes a messy free-text column.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
     "crumbs": [
       "Builds (Individual)",
-      "8: Simulation Experiment"
+      "9: Agentic Data Analysis"
     ]
   },
   {
-    "objectID": "hw/8-simulation.html#the-build",
-    "href": "hw/8-simulation.html#the-build",
-    "title": "Build 8: Simulation Experiment",
+    "objectID": "hw/9-data-analysis.html#the-build",
+    "href": "hw/9-data-analysis.html#the-build",
+    "title": "Build 9: Agentic Data Analysis",
     "section": "The Build",
     "text": "The Build\nComing soon!",
     "crumbs": [
       "Builds (Individual)",
-      "8: Simulation Experiment"
+      "9: Agentic Data Analysis"
     ]
   },
   {
-    "objectID": "hw/6-debugging-backlog.html",
-    "href": "hw/6-debugging-backlog.html",
-    "title": "Build 6: Clear a Debugging Backlog",
+    "objectID": "hw/7-review-harness.html",
+    "href": "hw/7-review-harness.html",
+    "title": "Build 7: Review Harness",
     "section": "",
-    "text": "Due: Feb 25 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Move from doing to delegating-and-verifying: direct an agent to diagnose and fix a backlog of issues in a provided repo, writing tests first and using a review agent to vet the work.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Oct 21 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Move from doing to delegating-and-verifying: direct an agent to clear a provided repo’s bug backlog with tests and pull requests, then build your own review skill or subagent and run it over your fixes.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
     "crumbs": [
       "Builds (Individual)",
-      "6: Debugging Backlog"
+      "7: Review Harness"
     ]
   },
   {
-    "objectID": "hw/6-debugging-backlog.html#the-build",
-    "href": "hw/6-debugging-backlog.html#the-build",
-    "title": "Build 6: Clear a Debugging Backlog",
+    "objectID": "hw/7-review-harness.html#the-build",
+    "href": "hw/7-review-harness.html#the-build",
+    "title": "Build 7: Review Harness",
     "section": "The Build",
     "text": "The Build\nComing soon!",
     "crumbs": [
       "Builds (Individual)",
-      "6: Debugging Backlog"
+      "7: Review Harness"
     ]
   },
   {
-    "objectID": "hw/4-video-game.html",
-    "href": "hw/4-video-game.html",
-    "title": "Build 4: Video Game",
+    "objectID": "hw/5-recreate-app.html",
+    "href": "hw/5-recreate-app.html",
+    "title": "Build 5: Recreate an App",
     "section": "",
-    "text": "Due: Feb 11 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Learn to extend an agent’s capabilities with skills by downloading game-development skills, assembling them, and building a playable video game.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Sep 30 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Plan before you prompt: write a spec with guardrails for a known app (e.g., Wordle or a pomodoro timer with stats), then have an agent build it to that spec.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
     "crumbs": [
       "Builds (Individual)",
-      "4: Video Game"
+      "5: Recreate an App"
     ]
   },
   {
-    "objectID": "hw/4-video-game.html#the-build",
-    "href": "hw/4-video-game.html#the-build",
-    "title": "Build 4: Video Game",
+    "objectID": "hw/5-recreate-app.html#the-build",
+    "href": "hw/5-recreate-app.html#the-build",
+    "title": "Build 5: Recreate an App",
     "section": "The Build",
     "text": "The Build\nComing soon!",
     "crumbs": [
       "Builds (Individual)",
-      "4: Video Game"
+      "5: Recreate an App"
     ]
   },
   {
-    "objectID": "hw/2-ingestion.html",
-    "href": "hw/2-ingestion.html",
-    "title": "Build 2: Ingestion — Literature Review or Novel",
+    "objectID": "hw/3-personal-website.html",
+    "href": "hw/3-personal-website.html",
+    "title": "Build 3: Personal Website",
     "section": "",
-    "text": "Due: Jan 28 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Practice feeding an agent source material and grounding its output in that material. Choose your path: a literature review on a research topic, or a novel written in the voice of an author you admire.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Sep 16 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Direct an agent for the first time on a real build: ship a personal website in a framework of your choice, with a clean Git history, deployed to GitHub Pages.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
     "crumbs": [
       "Builds (Individual)",
-      "2: Ingestion (Review or Novel)"
+      "3: Personal Website"
     ]
   },
   {
-    "objectID": "hw/2-ingestion.html#the-build",
-    "href": "hw/2-ingestion.html#the-build",
-    "title": "Build 2: Ingestion — Literature Review or Novel",
+    "objectID": "hw/3-personal-website.html#the-build",
+    "href": "hw/3-personal-website.html#the-build",
+    "title": "Build 3: Personal Website",
     "section": "The Build",
     "text": "The Build\nComing soon!",
     "crumbs": [
       "Builds (Individual)",
-      "2: Ingestion (Review or Novel)"
+      "3: Personal Website"
     ]
   },
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
+    "objectID": "hw/11-mcp-server.html",
+    "href": "hw/11-mcp-server.html",
+    "title": "Build 11: MCP Server",
     "section": "",
-    "text": "Coming soon!",
+    "text": "Due: Dec 02 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Connect agents to tools: build an MCP server that exposes your own data or tool, then use it from both your coding agent and a chatlas script.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
     "crumbs": [
-      "FAQ"
+      "Builds (Individual)",
+      "11: MCP Server"
     ]
   },
   {
-    "objectID": "class/7-continuous-integration.html",
-    "href": "class/7-continuous-integration.html",
-    "title": "Continuous Integration",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/5-workflow-automation.html",
-    "href": "class/5-workflow-automation.html",
-    "title": "Workflow Automation",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/3-planning-and-memory.html",
-    "href": "class/3-planning-and-memory.html",
-    "title": "Planning & Project Memory",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/1-git-github-pages.html",
-    "href": "class/1-git-github-pages.html",
-    "title": "Git, GitHub & Pages",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "License",
-    "section": "",
-    "text": "Unless otherwise noted, the content of this course website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).\nYou are free to share and adapt this material for any purpose, even commercially, as long as you give appropriate credit and distribute your contributions under the same license.",
+    "objectID": "hw/11-mcp-server.html#the-build",
+    "href": "hw/11-mcp-server.html#the-build",
+    "title": "Build 11: MCP Server",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
     "crumbs": [
-      "Other",
-      "License"
+      "Builds (Individual)",
+      "11: MCP Server"
     ]
+  },
+  {
+    "objectID": "hw/1-git-warmup.html",
+    "href": "hw/1-git-warmup.html",
+    "title": "Build 1: Git Warm-Up",
+    "section": "",
+    "text": "Due: Sep 02 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Get fluent with the core Git and GitHub workflow by hand, with no agent: make a repository with a clean commit history, open and merge a pull request, and deploy a live page to GitHub Pages.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "1: Git Warm-Up"
+    ]
+  },
+  {
+    "objectID": "hw/1-git-warmup.html#the-build",
+    "href": "hw/1-git-warmup.html#the-build",
+    "title": "Build 1: Git Warm-Up",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "1: Git Warm-Up"
+    ]
+  },
+  {
+    "objectID": "class/9-data-analysis.html",
+    "href": "class/9-data-analysis.html",
+    "title": "Agentic Data Analysis",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/7-verification.html",
+    "href": "class/7-verification.html",
+    "title": "The Verification Harness",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/5-planning-and-memory.html",
+    "href": "class/5-planning-and-memory.html",
+    "title": "Specs, Planning & Memory",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/3-agents.html",
+    "href": "class/3-agents.html",
+    "title": "Agents",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/12-multi-agent.html",
+    "href": "class/12-multi-agent.html",
+    "title": "Multi-Agent & Team Workflows",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/10-llm-apis.html",
+    "href": "class/10-llm-apis.html",
+    "title": "LLMs Inside Your Code",
+    "section": "",
+    "text": "Coming soon!"
   },
   {
     "objectID": "about.html",
@@ -283,119 +320,176 @@
     ]
   },
   {
-    "objectID": "class/2-context-injection.html",
-    "href": "class/2-context-injection.html",
-    "title": "Context & Document Injection",
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "License",
+    "section": "",
+    "text": "Unless otherwise noted, the content of this course website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).\nYou are free to share and adapt this material for any purpose, even commercially, as long as you give appropriate credit and distribute your contributions under the same license.",
+    "crumbs": [
+      "Other",
+      "License"
+    ]
+  },
+  {
+    "objectID": "class/1-git-github-pages.html",
+    "href": "class/1-git-github-pages.html",
+    "title": "Git, GitHub & Pages",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/4-skills.html",
-    "href": "class/4-skills.html",
+    "objectID": "class/11-mcp.html",
+    "href": "class/11-mcp.html",
+    "title": "MCP",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/2-how-llms-work.html",
+    "href": "class/2-how-llms-work.html",
+    "title": "How LLMs Work (and Fail)",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/4-context-engineering.html",
+    "href": "class/4-context-engineering.html",
+    "title": "Context Engineering",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/6-skills.html",
+    "href": "class/6-skills.html",
     "title": "Skills",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/6-debugging.html",
-    "href": "class/6-debugging.html",
-    "title": "Debugging & Issue Resolution",
+    "objectID": "class/8-continuous-integration.html",
+    "href": "class/8-continuous-integration.html",
+    "title": "CI & Cloud Robots",
     "section": "",
     "text": "Coming soon!"
   },
   {
-    "objectID": "class/8-multi-agent.html",
-    "href": "class/8-multi-agent.html",
-    "title": "Multi-Agent Orchestration",
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
     "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "hw/1-personal-website.html",
-    "href": "hw/1-personal-website.html",
-    "title": "Build 1: Personal Website",
-    "section": "",
-    "text": "Due: Jan 21 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Get fluent with the core engineering workflow — version control with Git, collaboration on GitHub, and deployment to the web — by building and shipping a personal website in a framework of your choice.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Coming soon!",
     "crumbs": [
-      "Builds (Individual)",
-      "1: Personal Website"
+      "FAQ"
     ]
   },
   {
-    "objectID": "hw/1-personal-website.html#the-build",
-    "href": "hw/1-personal-website.html#the-build",
-    "title": "Build 1: Personal Website",
+    "objectID": "hw/10-ai-tool.html",
+    "href": "hw/10-ai-tool.html",
+    "title": "Build 10: AI-Powered Tool",
+    "section": "",
+    "text": "Due: Nov 11 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Embed an LLM in your own code: use chatlas to classify or extract structure from the free-text column in Build 9, and measure its accuracy against a small labeled evaluation set.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "10: AI-Powered Tool"
+    ]
+  },
+  {
+    "objectID": "hw/10-ai-tool.html#the-build",
+    "href": "hw/10-ai-tool.html#the-build",
+    "title": "Build 10: AI-Powered Tool",
     "section": "The Build",
     "text": "The Build\nComing soon!",
     "crumbs": [
       "Builds (Individual)",
-      "1: Personal Website"
+      "10: AI-Powered Tool"
     ]
   },
   {
-    "objectID": "hw/3-recreate-app.html",
-    "href": "hw/3-recreate-app.html",
-    "title": "Build 3: Recreate an App from a Spec",
+    "objectID": "hw/2-probe-the-model.html",
+    "href": "hw/2-probe-the-model.html",
+    "title": "Build 2: Probe the Model",
     "section": "",
-    "text": "Due: Feb 04 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Use plan mode and project memory (CLAUDE.md) to take on a project big enough that it fails without a plan. Recreate a known small app from a specification.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Sep 09 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: See how LLMs work and fail firsthand by running five small experiments (tokenization quirks, sampling variance, context limits, fabricated citations, and sycophancy) and writing them up as a Quarto report.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
     "crumbs": [
       "Builds (Individual)",
-      "3: Recreate an App"
+      "2: Probe the Model"
     ]
   },
   {
-    "objectID": "hw/3-recreate-app.html#the-build",
-    "href": "hw/3-recreate-app.html#the-build",
-    "title": "Build 3: Recreate an App from a Spec",
+    "objectID": "hw/2-probe-the-model.html#the-build",
+    "href": "hw/2-probe-the-model.html#the-build",
+    "title": "Build 2: Probe the Model",
     "section": "The Build",
     "text": "The Build\nComing soon!",
     "crumbs": [
       "Builds (Individual)",
-      "3: Recreate an App"
+      "2: Probe the Model"
     ]
   },
   {
-    "objectID": "hw/5-data-pipeline.html",
-    "href": "hw/5-data-pipeline.html",
-    "title": "Build 5: Data Pipeline",
+    "objectID": "hw/4-ingestion.html",
+    "href": "hw/4-ingestion.html",
+    "title": "Build 4: Ingestion (Review or Novel)",
     "section": "",
-    "text": "Due: Feb 18 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Turn a repeated multi-step workflow into reusable custom commands and hooks by building a data analysis → report pipeline that automates its own routine steps.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Sep 23 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Practice context engineering by feeding an agent source material to produce either a literature review on a topic or a novel written in an admired author’s voice.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
     "crumbs": [
       "Builds (Individual)",
-      "5: Data Pipeline"
+      "4: Ingestion (Review or Novel)"
     ]
   },
   {
-    "objectID": "hw/5-data-pipeline.html#the-build",
-    "href": "hw/5-data-pipeline.html#the-build",
-    "title": "Build 5: Data Pipeline",
+    "objectID": "hw/4-ingestion.html#the-build",
+    "href": "hw/4-ingestion.html#the-build",
+    "title": "Build 4: Ingestion (Review or Novel)",
     "section": "The Build",
     "text": "The Build\nComing soon!",
     "crumbs": [
       "Builds (Individual)",
-      "5: Data Pipeline"
+      "4: Ingestion (Review or Novel)"
     ]
   },
   {
-    "objectID": "hw/7-cloud-robot.html",
-    "href": "hw/7-cloud-robot.html",
-    "title": "Build 7: Cloud Robot",
+    "objectID": "hw/6-video-game.html",
+    "href": "hw/6-video-game.html",
+    "title": "Build 6: Video Game",
     "section": "",
-    "text": "Due: Mar 04 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Automate verification and recurring work with GitHub Actions by building a scheduled workflow that runs in the cloud and does something useful on its own.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Oct 14 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Leverage skills to build something ambitious: assemble game-development skills, build and extend a video game, and write one custom skill of your own.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
     "crumbs": [
       "Builds (Individual)",
-      "7: Cloud Robot"
+      "6: Video Game"
     ]
   },
   {
-    "objectID": "hw/7-cloud-robot.html#the-build",
-    "href": "hw/7-cloud-robot.html#the-build",
-    "title": "Build 7: Cloud Robot",
+    "objectID": "hw/6-video-game.html#the-build",
+    "href": "hw/6-video-game.html#the-build",
+    "title": "Build 6: Video Game",
     "section": "The Build",
     "text": "The Build\nComing soon!",
     "crumbs": [
       "Builds (Individual)",
-      "7: Cloud Robot"
+      "6: Video Game"
+    ]
+  },
+  {
+    "objectID": "hw/8-cloud-robot.html",
+    "href": "hw/8-cloud-robot.html",
+    "title": "Build 8: Cloud Robot",
+    "section": "",
+    "text": "Due: Oct 28 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Automate verification and work: build a scheduled GitHub Action that does something useful on its own every day (a scraper, a digest, or an auto-updating README or badge).\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "crumbs": [
+      "Builds (Individual)",
+      "8: Cloud Robot"
+    ]
+  },
+  {
+    "objectID": "hw/8-cloud-robot.html#the-build",
+    "href": "hw/8-cloud-robot.html#the-build",
+    "title": "Build 8: Cloud Robot",
+    "section": "The Build",
+    "text": "The Build\nComing soon!",
+    "crumbs": [
+      "Builds (Individual)",
+      "8: Cloud Robot"
     ]
   },
   {
@@ -413,7 +507,7 @@
     "href": "project/1-proposal.html",
     "title": "Team Project: Proposal",
     "section": "",
-    "text": "Due: Feb 18 by 11:59pm\nWeight: This deliverable is worth 5% of your final grade.\nPurpose: Define your team, your problem, and your planned approach — and set up the GitHub repository where the work will live.",
+    "text": "Due: Oct 14 by 11:59pm\nWeight: This deliverable is worth 5% of your final grade.\nPurpose: Define your team, your problem, and your planned approach — and set up the GitHub repository where the work will live.",
     "crumbs": [
       "Team Project",
       "Proposal"
@@ -435,7 +529,7 @@
     "href": "project/3-final-report.html",
     "title": "Team Project: Final Report",
     "section": "",
-    "text": "Due: Apr 22 by 11:59pm\nWeight: This deliverable is worth 25% of your final grade.\nPurpose: Deliver the complete project: problem statement, solution architecture, implementation details, results and evaluation, lessons learned, and the GitHub repository with full codebase and conversation history.",
+    "text": "Due: Dec 07 by 11:59pm\nWeight: This deliverable is worth 25% of your final grade.\nPurpose: Deliver the complete project: problem statement, solution architecture, implementation details, results and evaluation, lessons learned, and the GitHub repository with full codebase and conversation history.",
     "crumbs": [
       "Team Project",
       "Final Report"

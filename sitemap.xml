@@ -2,118 +2,146 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/syllabus.html</loc>
-    <lastmod>2026-11-18T12:50:15.615Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.518Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/schedule.html</loc>
-    <lastmod>2026-11-18T12:50:15.615Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.518Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/project/4-presentation.html</loc>
-    <lastmod>2026-11-18T12:50:15.615Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.518Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/project/2-interim-report.html</loc>
-    <lastmod>2026-11-18T12:50:15.615Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.518Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/project/0-overview.html</loc>
-    <lastmod>2026-11-18T12:50:15.615Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.518Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/8-simulation.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/9-data-analysis.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/6-debugging-backlog.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/7-review-harness.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/4-video-game.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/5-recreate-app.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/2-ingestion.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/3-personal-website.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/faq.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/11-mcp-server.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/7-continuous-integration.html</loc>
-    <lastmod>2026-11-18T12:50:15.613Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/1-git-warmup.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/5-workflow-automation.html</loc>
-    <lastmod>2026-11-18T12:50:15.613Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/9-data-analysis.html</loc>
+    <lastmod>2026-11-18T12:57:26.516Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/3-planning-and-memory.html</loc>
-    <lastmod>2026-11-18T12:50:15.613Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/7-verification.html</loc>
+    <lastmod>2026-11-18T12:57:26.516Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/1-git-github-pages.html</loc>
-    <lastmod>2026-11-18T12:50:15.613Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/5-planning-and-memory.html</loc>
+    <lastmod>2026-11-18T12:57:26.516Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/LICENSE.html</loc>
-    <lastmod>2026-11-18T12:50:15.602Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/3-agents.html</loc>
+    <lastmod>2026-11-18T12:57:26.516Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/12-multi-agent.html</loc>
+    <lastmod>2026-11-18T12:57:26.515Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/10-llm-apis.html</loc>
+    <lastmod>2026-11-18T12:57:26.515Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/about.html</loc>
-    <lastmod>2026-11-18T12:50:15.613Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.515Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/2-context-injection.html</loc>
-    <lastmod>2026-11-18T12:50:15.613Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/LICENSE.html</loc>
+    <lastmod>2026-11-18T12:57:26.504Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/4-skills.html</loc>
-    <lastmod>2026-11-18T12:50:15.613Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/1-git-github-pages.html</loc>
+    <lastmod>2026-11-18T12:57:26.515Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/6-debugging.html</loc>
-    <lastmod>2026-11-18T12:50:15.613Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/11-mcp.html</loc>
+    <lastmod>2026-11-18T12:57:26.515Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/8-multi-agent.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/2-how-llms-work.html</loc>
+    <lastmod>2026-11-18T12:57:26.516Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/1-personal-website.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/4-context-engineering.html</loc>
+    <lastmod>2026-11-18T12:57:26.516Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/3-recreate-app.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/6-skills.html</loc>
+    <lastmod>2026-11-18T12:57:26.516Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/5-data-pipeline.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/class/8-continuous-integration.html</loc>
+    <lastmod>2026-11-18T12:57:26.516Z</lastmod>
   </url>
   <url>
-    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/7-cloud-robot.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/faq.html</loc>
+    <lastmod>2026-11-18T12:57:26.516Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/10-ai-tool.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/2-probe-the-model.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/4-ingestion.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/6-video-game.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jhelvy.github.io/intro-to-agentic-engineering/hw/8-cloud-robot.html</loc>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/index.html</loc>
-    <lastmod>2026-11-18T12:50:15.614Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.517Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/project/1-proposal.html</loc>
-    <lastmod>2026-11-18T12:50:15.615Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.518Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/project/3-final-report.html</loc>
-    <lastmod>2026-11-18T12:50:15.615Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.518Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/references.html</loc>
-    <lastmod>2026-11-18T12:50:15.615Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.518Z</lastmod>
   </url>
   <url>
     <loc>https://jhelvy.github.io/intro-to-agentic-engineering/software.html</loc>
-    <lastmod>2026-11-18T12:50:15.615Z</lastmod>
+    <lastmod>2026-11-18T12:57:26.518Z</lastmod>
   </url>
 </urlset>

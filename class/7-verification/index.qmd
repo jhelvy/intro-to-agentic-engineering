@@ -1,0 +1,9 @@
+---
+title: "The Verification Harness"
+subtitle: "EMSE 4197 · Week 7"
+format: revealjs
+---
+
+## Slides coming soon
+
+<!-- Slide content for this week will be built here. -->

@@ -1,0 +1,18 @@
+---
+title: "Build 8: Cloud Robot"
+params:
+  number: 8
+  purpose: "Automate verification and work: build a scheduled GitHub Action that does something useful on its own every day (a scraper, a digest, or an auto-updating README or badge)."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```
