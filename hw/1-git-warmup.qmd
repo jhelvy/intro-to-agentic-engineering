@@ -1,0 +1,18 @@
+---
+title: "Build 1: Git Warm-Up"
+params:
+  number: 1
+  purpose: "Get fluent with the core Git and GitHub workflow by hand, with no agent: make a repository with a clean commit history, open and merge a pull request, and deploy a live page to GitHub Pages."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

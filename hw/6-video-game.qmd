@@ -1,0 +1,18 @@
+---
+title: "Build 6: Video Game"
+params:
+  number: 6
+  purpose: "Leverage skills to build something ambitious: assemble game-development skills, build and extend a video game, and write one custom skill of your own."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

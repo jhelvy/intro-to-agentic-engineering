@@ -1,0 +1,12 @@
+---
+title: "MCP"
+params:
+  class: "11-mcp"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

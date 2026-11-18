@@ -1,0 +1,18 @@
+---
+title: "Build 9: Agentic Data Analysis"
+params:
+  number: 9
+  purpose: "Apply the workflow to real data: use an agent with polars, plotnine, and Great Tables to produce a verified, deployed Quarto report on a dataset that includes a messy free-text column."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

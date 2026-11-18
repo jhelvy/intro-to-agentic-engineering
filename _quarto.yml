@@ -8,24 +8,28 @@ project:
     - "*.qmd"
     - "!fragments/"
     - "!class/1-git-github-pages/"
-    - "!class/2-context-injection/"
-    - "!class/3-planning-and-memory/"
-    - "!class/4-skills/"
-    - "!class/5-workflow-automation/"
-    - "!class/6-debugging/"
-    - "!class/7-continuous-integration/"
-    - "!class/8-multi-agent/"
+    - "!class/2-how-llms-work/"
+    - "!class/3-agents/"
+    - "!class/4-context-engineering/"
+    - "!class/5-planning-and-memory/"
+    - "!class/6-skills/"
+    - "!class/7-verification/"
+    - "!class/8-continuous-integration/"
+    - "!class/9-data-analysis/"
+    - "!class/10-llm-apis/"
+    - "!class/11-mcp/"
+    - "!class/12-multi-agent/"
   resources:
     - "class/"
     - "hw/"
     - "project/"
 
 website:
-  title: EMSE 6992
+  title: EMSE 4197
   site-url: https://jhelvy.github.io/intro-to-agentic-engineering/
   repo-url: https://github.com/jhelvy/intro-to-agentic-engineering
   repo-actions: [edit, issue]
-  description: 'Course website for Spring 2027 semester of the EMSE course "Introduction to Agentic Engineering" at GWU'
+  description: 'Course website for the Fall 2027 semester of the EMSE course "Build with AI: An Introduction to Agentic Engineering" at GWU'
   search: true
   sidebar:
     style: "docked"
@@ -45,22 +49,28 @@ website:
       - section: Builds (Individual)
         icon: hammer
         contents:
-          - text: "1: Personal Website"
-            href: hw/1-personal-website.qmd
-          - text: "2: Ingestion (Review or Novel)"
-            href: hw/2-ingestion.qmd
-          - text: "3: Recreate an App"
-            href: hw/3-recreate-app.qmd
-          - text: "4: Video Game"
-            href: hw/4-video-game.qmd
-          - text: "5: Data Pipeline"
-            href: hw/5-data-pipeline.qmd
-          - text: "6: Debugging Backlog"
-            href: hw/6-debugging-backlog.qmd
-          - text: "7: Cloud Robot"
-            href: hw/7-cloud-robot.qmd
-          - text: "8: Simulation Experiment"
-            href: hw/8-simulation.qmd
+          - text: "1: Git Warm-Up"
+            href: hw/1-git-warmup.qmd
+          - text: "2: Probe the Model"
+            href: hw/2-probe-the-model.qmd
+          - text: "3: Personal Website"
+            href: hw/3-personal-website.qmd
+          - text: "4: Ingestion (Review or Novel)"
+            href: hw/4-ingestion.qmd
+          - text: "5: Recreate an App"
+            href: hw/5-recreate-app.qmd
+          - text: "6: Video Game"
+            href: hw/6-video-game.qmd
+          - text: "7: Review Harness"
+            href: hw/7-review-harness.qmd
+          - text: "8: Cloud Robot"
+            href: hw/8-cloud-robot.qmd
+          - text: "9: Agentic Data Analysis"
+            href: hw/9-data-analysis.qmd
+          - text: "10: AI-Powered Tool"
+            href: hw/10-ai-tool.qmd
+          - text: "11: MCP Server"
+            href: hw/11-mcp-server.qmd
       - section: Team Project
         icon: people-fill
         contents:

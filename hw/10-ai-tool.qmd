@@ -1,0 +1,18 @@
+---
+title: "Build 10: AI-Powered Tool"
+params:
+  number: 10
+  purpose: "Embed an LLM in your own code: use chatlas to classify or extract structure from the free-text column in Build 9, and measure its accuracy against a small labeled evaluation set."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

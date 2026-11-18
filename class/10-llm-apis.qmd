@@ -1,0 +1,12 @@
+---
+title: "LLMs Inside Your Code"
+params:
+  class: "10-llm-apis"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

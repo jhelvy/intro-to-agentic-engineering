@@ -1,0 +1,12 @@
+---
+title: "Context Engineering"
+params:
+  class: "4-context-engineering"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

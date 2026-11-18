@@ -1,0 +1,12 @@
+---
+title: "Agentic Data Analysis"
+params:
+  class: "9-data-analysis"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

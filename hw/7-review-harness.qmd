@@ -1,0 +1,18 @@
+---
+title: "Build 7: Review Harness"
+params:
+  number: 7
+  purpose: "Move from doing to delegating-and-verifying: direct an agent to clear a provided repo's bug backlog with tests and pull requests, then build your own review skill or subagent and run it over your fixes."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

@@ -1,0 +1,12 @@
+---
+title: "The Verification Harness"
+params:
+  class: "7-verification"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

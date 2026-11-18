@@ -1,0 +1,12 @@
+---
+title: "Multi-Agent & Team Workflows"
+params:
+  class: "12-multi-agent"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

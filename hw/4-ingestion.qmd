@@ -1,0 +1,18 @@
+---
+title: "Build 4: Ingestion (Review or Novel)"
+params:
+  number: 4
+  purpose: "Practice context engineering by feeding an agent source material to produce either a literature review on a topic or a novel written in an admired author's voice."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

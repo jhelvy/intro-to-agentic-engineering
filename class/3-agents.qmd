@@ -1,0 +1,12 @@
+---
+title: "Agents"
+params:
+  class: "3-agents"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```

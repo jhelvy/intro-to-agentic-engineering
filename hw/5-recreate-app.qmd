@@ -1,0 +1,18 @@
+---
+title: "Build 5: Recreate an App"
+params:
+  number: 5
+  purpose: "Plan before you prompt: write a spec with guardrails for a known app (e.g., Wordle or a pomodoro timer with stats), then have an agent build it to that spec."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "hw.qmd")}
+```
+
+## The Build
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```
