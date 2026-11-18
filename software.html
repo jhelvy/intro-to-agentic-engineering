@@ -26,6 +26,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -314,8 +349,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-well-use" id="toc-what-well-use" class="nav-link active" data-scroll-target="#what-well-use">What we’ll use</a></li>
+  <li><a href="#quarto-and-python" id="toc-quarto-and-python" class="nav-link" data-scroll-target="#quarto-and-python">Quarto and Python</a></li>
+  <li><a href="#choose-and-install-an-ai-coding-agent" id="toc-choose-and-install-an-ai-coding-agent" class="nav-link" data-scroll-target="#choose-and-install-an-ai-coding-agent">Choose and install an AI coding agent</a>
+  <ul class="collapse">
+  <li><a href="#step-1-get-a-subscription-about-20month" id="toc-step-1-get-a-subscription-about-20month" class="nav-link" data-scroll-target="#step-1-get-a-subscription-about-20month">Step 1: Get a subscription (about $20/month)</a></li>
+  <li><a href="#step-2-install-your-agent" id="toc-step-2-install-your-agent" class="nav-link" data-scroll-target="#step-2-install-your-agent">Step 2: Install your agent</a></li>
+  <li><a href="#other-agents" id="toc-other-agents" class="nav-link" data-scroll-target="#other-agents">Other agents</a></li>
+  <li><a href="#claude-code-codex" id="toc-claude-code-codex" class="nav-link" data-scroll-target="#claude-code-codex">Claude Code ↔︎ Codex</a></li>
+  </ul></li>
+  <li><a href="#api-access-for-chatlas-meetings-1011" id="toc-api-access-for-chatlas-meetings-1011" class="nav-link" data-scroll-target="#api-access-for-chatlas-meetings-1011">API access for chatlas (Meetings 10–11)</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jhelvy/intro-to-agentic-engineering/edit/main/software.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jhelvy/intro-to-agentic-engineering/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content" tabindex="-1">
@@ -339,17 +389,139 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page will walk through everything you need installed before the first class. A quick list of what we’ll use:</p>
+<p>This page walks through everything you need installed before the first class. Most of our code is in <strong>Python</strong>, and we’ll write both <code>.py</code> scripts and Quarto <code>.qmd</code> reports. <strong>We do not use Jupyter notebooks (<code>.ipynb</code>) in this course.</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Some setup steps below are still being written. Check back before the semester starts.</p>
+</div>
+</div>
+<section id="what-well-use" class="level2">
+<h2 class="anchored" data-anchor-id="what-well-use">What we’ll use</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Purpose</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Terminal and code editor</td>
+<td>A terminal plus <a href="https://code.visualstudio.com/">VS Code</a> or <a href="https://positron.posit.co/">Positron</a></td>
+</tr>
+<tr class="even">
+<td>Version control</td>
+<td><a href="https://git-scm.com/">Git</a> and a <a href="https://github.com/">GitHub</a> account</td>
+</tr>
+<tr class="odd">
+<td>Python environments</td>
+<td><a href="https://docs.astral.sh/uv/">uv</a></td>
+</tr>
+<tr class="even">
+<td>Linting and testing</td>
+<td><a href="https://docs.astral.sh/ruff/">ruff</a> and <a href="https://docs.pytest.org/">pytest</a></td>
+</tr>
+<tr class="odd">
+<td>Data</td>
+<td><a href="https://pola.rs/">polars</a>, <a href="https://plotnine.org/">plotnine</a>, <a href="https://posit-dev.github.io/great-tables/">Great Tables</a></td>
+</tr>
+<tr class="even">
+<td>LLMs from Python</td>
+<td><a href="https://posit-dev.github.io/chatlas/">chatlas</a></td>
+</tr>
+<tr class="odd">
+<td>MCP servers</td>
+<td>the <a href="https://github.com/modelcontextprotocol/python-sdk">MCP Python SDK</a> (FastMCP)</td>
+</tr>
+<tr class="even">
+<td>Reports</td>
+<td><a href="https://quarto.org/docs/get-started/">Quarto</a></td>
+</tr>
+<tr class="odd">
+<td>An AI coding agent</td>
+<td><a href="https://www.claude.com/product/claude-code">Claude Code</a> or <a href="https://github.com/openai/codex">Codex</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="quarto-and-python" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-and-python">Quarto and Python</h2>
+<p>Quarto renders <code>.qmd</code> files containing Python code using its Jupyter engine. You won’t ever open or create a notebook, but the project’s uv environment needs <code>ipykernel</code> installed, and Quarto has to use that environment. The simplest way is to run Quarto through uv:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> add ipykernel</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run quarto render report.qmd</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="choose-and-install-an-ai-coding-agent" class="level2">
+<h2 class="anchored" data-anchor-id="choose-and-install-an-ai-coding-agent">Choose and install an AI coding agent</h2>
+<p>We will use agentic coding tools all semester, so you need one. Instruction will use <strong>Claude Code</strong> and <strong>Codex</strong>, and the underlying skills transfer between them.</p>
+<section id="step-1-get-a-subscription-about-20month" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-get-a-subscription-about-20month">Step 1: Get a subscription (about $20/month)</h3>
 <ul>
-<li>A terminal and a code editor (VS Code recommended).</li>
-<li><a href="https://git-scm.com/">Git</a> for version control.</li>
-<li>A <a href="https://github.com/">GitHub</a> account.</li>
-<li>An agentic coding tool (<a href="https://www.claude.com/product/claude-code">Claude Code</a>).</li>
-<li>Language runtimes as needed per build (e.g., Node, Python, R / Quarto).</li>
+<li>Claude Code requires at least a <a href="https://claude.ai/login?plan=pro">Claude Pro</a> subscription. A free account isn’t enough.</li>
+<li>Codex requires a paid <a href="https://chatgpt.com/pricing">ChatGPT plan</a> (Plus is fine).</li>
 </ul>
+<p>We recommend a <strong>subscription rather than API billing</strong> because agentic coding uses so many tokens that per-token API costs would be far higher. Check Slack for whether the class has an institutional arrangement before paying for your own.</p>
+</section>
+<section id="step-2-install-your-agent" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-install-your-agent">Step 2: Install your agent</h3>
+<p>Follow the official instructions: the <a href="https://code.claude.com/docs/en/quickstart">Claude Code quickstart</a> or the <a href="https://github.com/openai/codex">Codex repository</a>. If you get stuck, we’ll sort it out together before or after the first class.</p>
+</section>
+<section id="other-agents" class="level3">
+<h3 class="anchored" data-anchor-id="other-agents">Other agents</h3>
+<p>You’re welcome to use another agent (Gemini CLI, GitHub Copilot, OpenCode…). In-class instruction will use Claude Code and Codex, so you may need to translate tool-specific steps yourself.</p>
+</section>
+<section id="claude-code-codex" class="level3">
+<h3 class="anchored" data-anchor-id="claude-code-codex">Claude Code ↔︎ Codex</h3>
+<p>Both tools read the same open standards, so most of what we build works in either:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Concept</th>
+<th>Claude Code</th>
+<th>Codex</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Project instructions</td>
+<td><code>CLAUDE.md</code> (we’ll have it import <code>AGENTS.md</code>)</td>
+<td><code>AGENTS.md</code></td>
+</tr>
+<tr class="even">
+<td>Skills (<code>SKILL.md</code>)</td>
+<td><code>.claude/skills/</code></td>
+<td><code>.agents/skills/</code></td>
+</tr>
+<tr class="odd">
+<td>MCP servers</td>
+<td>supported</td>
+<td>supported</td>
+</tr>
+</tbody>
+</table>
+<p>Features like plan mode, hooks, and subagents differ between the two tools. We’ll note the differences as we reach each topic.</p>
+</section>
+</section>
+<section id="api-access-for-chatlas-meetings-1011" class="level2">
+<h2 class="anchored" data-anchor-id="api-access-for-chatlas-meetings-1011">API access for chatlas (Meetings 10–11)</h2>
+<p>A Claude or ChatGPT subscription does <strong>not</strong> include API access. For the chatlas meetings you have three options, and the code is the same for all of them (you change one line to switch providers):</p>
+<ol type="1">
+<li><strong>Free:</strong> the Gemini API free tier (via chatlas’s <code>ChatGoogle</code>).</li>
+<li><strong>Free:</strong> a local model through <a href="https://ollama.com/">Ollama</a> (via <code>ChatOllama</code>).</li>
+<li><strong>About $5:</strong> load credit with a provider and use a small, cheap model.</li>
+</ol>
+<p>We’ll cover how to set this up, and how to keep API keys out of your code and out of your Git history, in class before Meeting 10.</p>
 <p>Coming soon!</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -864,7 +1036,7 @@ ul.task-list li input[type="checkbox"] {
  © 2027 John Paul Helveston  <a href="LICENSE.html"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a><br><i class="far fa-calendar-alt"></i> Thursdays | <i class="far fa-clock"></i> 3:30PM - 6:00PM EST | <i class="fa fa-map-marker-alt"></i> Tompkins 201<br><a href="https://www.jhelvy.com"><i class="fas fa-user"></i> Dr. John Paul Helveston</a> | <a href="mailto:jph@gwu.edu"><i class="fas fa-envelope"></i> jph@gwu.edu</a> | <a href="https://github.com/jhelvy/intro-to-agentic-engineering"><i class="fab fa-github"></i></a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/jhelvy/intro-to-agentic-engineering/edit/main/software.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jhelvy/intro-to-agentic-engineering/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jhelvy/intro-to-agentic-engineering/edit/main/software.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jhelvy/intro-to-agentic-engineering/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

@@ -11,13 +11,13 @@ execute:
 The team project is the capstone of the course — and the only piece of fully
 open-ended work. In teams of **3–4**, you'll propose and build an ambitious,
 real-world project of your own design, applying every workflow skill from the
-semester: version control, planning, skills, automation, debugging, continuous
-integration, deployment, and (where it helps) multi-agent orchestration.
+semester: version control, planning, skills, verification, continuous integration,
+deployment, LLM APIs, MCP, and (where it helps) multi-agent orchestration.
 
-Throughout the final weeks, class sessions become **team work sessions** where the
-instructor circulates, audits progress, and gives direction — and where we learn
-collaboration workflows (pull request reviews, issues, and fork → branch → merge)
-live, as you need them.
+Teams form in Meeting 5. From Meeting 9 on, the last ~45 minutes of each class is
+**team studio time**, where the instructor checks in with each team. The final two
+meetings are dedicated studio sessions, and we learn collaboration workflows (pull
+request reviews, issues, and parallel agents in git worktrees) live in Meeting 12.
 
 **Summary of deliverables:**
 
@@ -25,10 +25,10 @@ live, as you need them.
 
 Item | Weight | Due
 -----|--------|-----------------
-[Proposal](1-proposal.qmd) | 5% | Feb 18 (Week 6)
-[Interim Report](2-interim-report.qmd) | 10% | Mar 25 (Week 11)
-[Final Report](3-final-report.qmd) | 25% | Apr 22 (Week 15)
-[Final Presentation](4-presentation.qmd) | 10% | Apr 29 (Week 16)
+[Proposal](1-proposal.qmd) | 5% | Oct 14 (Meeting 7)
+[Interim Report](2-interim-report.qmd) | 10% | Nov 18 (Meeting 12)
+[Final Report](3-final-report.qmd) | 15% | Dec 7 (Meeting 14)
+[Final Presentation](4-presentation.qmd) | 10% | Final exam slot (date TBD)
 
 </div>
 

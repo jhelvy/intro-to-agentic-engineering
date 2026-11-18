@@ -4,7 +4,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Instructor\nCourse\n\n\n\n\n John Paul Helveston\n Thursdays\n\n\n Tompkins 201\n Aug. 26 - Dec. 7, 2027\n\n\n jph@gwu.edu\n 3:30PM - 6:00PM EST\n\n\n\n\n\n\nThe bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\n\n\n\nStudents must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. You do not need to be an expert, but you should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
+    "text": "Instructor\nCourse\n\n\n\n\n John Paul Helveston\n Thursdays\n\n\n Tompkins 201\n Aug. 26 - Dec. 7, 2027\n\n\n jph@gwu.edu\n 3:30PM - 6:00PM EST\n\n\n\n\n\n\nThe bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches you to use AI coding agents like Claude Code and Codex to build ambitious things you don’t yet know how to build, while developing the professional engineering habits — version control with Git and GitHub, testing, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. The course runs in two parts. In Part 1: Working with an agent, we start with Git by hand, look under the hood at how large language models work (and fail), and then climb from high-touch collaboration with an agent toward delegating work and automatically verifying it. In Part 2: Building with LLMs, we apply the workflow to real data analysis in Python (polars, plotnine, and Great Tables), call LLMs from your own code with chatlas, connect agents to tools with the Model Context Protocol (MCP), and orchestrate multiple agents. Each week pairs a hands-on workflow concept taught live in class with an ambitious take-home build — a deployed personal website, a novel in an author’s voice, a video game, a cloud robot, an AI-powered tool, and more — and a short reading that connects the work to the bigger picture. A team project runs alongside, with in-class studio time for collaboration. By the end, you’ll have transferable engineering workflow skills, the ability to work with code and data through an agent, the judgment to know when to trust (and when to verify) AI output, and — most importantly — the ability to teach yourself new domains so you can tackle harder problems in the future.\n\n\n\nStudents must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. Most of our code will be in Python, but you do not need to be a Python expert. You should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
     "crumbs": [
       "Syllabus"
     ]
@@ -14,7 +14,7 @@
     "href": "syllabus.html#course-description",
     "title": "Syllabus",
     "section": "",
-    "text": "The bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.",
+    "text": "The bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches you to use AI coding agents like Claude Code and Codex to build ambitious things you don’t yet know how to build, while developing the professional engineering habits — version control with Git and GitHub, testing, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. The course runs in two parts. In Part 1: Working with an agent, we start with Git by hand, look under the hood at how large language models work (and fail), and then climb from high-touch collaboration with an agent toward delegating work and automatically verifying it. In Part 2: Building with LLMs, we apply the workflow to real data analysis in Python (polars, plotnine, and Great Tables), call LLMs from your own code with chatlas, connect agents to tools with the Model Context Protocol (MCP), and orchestrate multiple agents. Each week pairs a hands-on workflow concept taught live in class with an ambitious take-home build — a deployed personal website, a novel in an author’s voice, a video game, a cloud robot, an AI-powered tool, and more — and a short reading that connects the work to the bigger picture. A team project runs alongside, with in-class studio time for collaboration. By the end, you’ll have transferable engineering workflow skills, the ability to work with code and data through an agent, the judgment to know when to trust (and when to verify) AI output, and — most importantly — the ability to teach yourself new domains so you can tackle harder problems in the future.",
     "crumbs": [
       "Syllabus"
     ]
@@ -24,7 +24,7 @@
     "href": "syllabus.html#prerequisites",
     "title": "Syllabus",
     "section": "",
-    "text": "Students must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. You do not need to be an expert, but you should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
+    "text": "Students must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. Most of our code will be in Python, but you do not need to be a Python expert. You should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
     "crumbs": [
       "Syllabus"
     ]
@@ -44,7 +44,17 @@
     "href": "syllabus.html#individual-builds",
     "title": "Syllabus",
     "section": "Individual Builds",
-    "text": "Individual Builds\nEach week (Weeks 1–8) you complete one build: an ambitious project in a domain you likely haven’t worked in before. Each build is delivered as a GitHub repository that includes the full conversation history with the agent. Grading focuses on prompt quality, evidence of iterative collaboration, final product quality, and thoughtful use of the week’s workflow skill. There are 8 builds, each worth 5% of your grade.",
+    "text": "Individual Builds\nThere are 11 builds, each an ambitious project in a domain you likely haven’t worked in before. Each build is delivered as a GitHub repository that includes the full conversation history with the agent, plus a short reflection on the build’s assigned reading. Grading focuses on prompt quality, evidence of iterative collaboration, final product quality, and thoughtful use of the week’s workflow skill. Builds are graded with a checklist, you may resubmit once for a revised score, and your lowest build score is dropped.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#oral-code-walkthroughs",
+    "href": "syllabus.html#oral-code-walkthroughs",
+    "title": "Syllabus",
+    "section": "Oral Code Walkthroughs",
+    "text": "Oral Code Walkthroughs\nTwice during the semester you’ll spend 5–10 minutes in class walking the instructor through one of your builds: how it works, and why you (or the agent) did it that way. The goal is durable learning. If you can’t explain what the agent built, you don’t yet own it.",
     "crumbs": [
       "Syllabus"
     ]
@@ -60,11 +70,21 @@
     ]
   },
   {
+    "objectID": "syllabus.html#ai-tools-and-cost",
+    "href": "syllabus.html#ai-tools-and-cost",
+    "title": "Syllabus",
+    "section": "AI Tools and Cost",
+    "text": "AI Tools and Cost\nYou’ll need an AI coding agent for this course, and the most economical option is a subscription of about $20/month:\n\nClaude Pro (for Claude Code), or\nChatGPT Plus (for Codex).\n\nChoose one. You’re welcome to use a different agentic coding tool instead (e.g., Gemini CLI, GitHub Copilot, OpenCode), since the underlying skills transfer, but in-class instruction will use Claude Code and Codex.\nWhy a subscription and not the API? Agentic coding burns a lot of tokens. Paying per token through an API would cost far more than a flat monthly subscription. We recommend a subscription for exactly that reason. I recognize that $20/month is a real cost. We are pursuing institutional access, so check Slack before you pay, and let me know if the cost is a barrier.\nAPI access for Meetings 10–11. A subscription does not include API access, and we’ll call LLMs from Python code with chatlas in those meetings. You can do this at no cost with a free-tier or local model, or by loading about $5 of credit on a provider’s API and using a small model. The course materials work with any provider. We’ll go over the options in class before Meeting 10.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
     "objectID": "syllabus.html#generative-ai-use-policy",
     "href": "syllabus.html#generative-ai-use-policy",
     "title": "Syllabus",
     "section": "Generative-AI Use Policy",
-    "text": "Generative-AI Use Policy\nUsing AI agents is not “cheating” in this course — it is the core skill being taught. For individual builds you are required to use an agentic coding tool and to disclose your full conversation history as part of your submission. You remain fully responsible for the correctness, quality, and originality of everything you submit: read what the agent produces, run it, and fix it when it’s wrong. Detailed disclosure requirements appear in each assignment.",
+    "text": "Generative-AI Use Policy\nUsing AI agents is not “cheating” in this course — it is the core skill being taught. Using the language of the MIT report on AI and education, the policy for individual builds is required use of generative AI: you must use an agentic coding tool and submit your full conversation history. You remain fully responsible for the correctness, quality, and originality of everything you submit: read what the agent produces, run it, and fix it when it’s wrong.\nThere are two AI-free exceptions, each with a reason:\n\nMeeting 1 and Build 1 (Git by hand). You can’t supervise an agent that uses Git until you can use Git yourself.\nReading reflections. These are written in your own words, because the point is your own thinking about the reading.\n\nOther course commitments:\n\nNo AI detectors. We do not use AI-detection software, which is unreliable. The evidence of your process is your conversation logs and your Git history.\nInstructor disclosure. I use AI in preparing course materials and in drafting grading feedback, and I review everything before you see it.\nLog privacy. Conversation logs are seen only by the course staff and used only for grading. Remove API keys, passwords, and personal data from your logs before you submit them.\nResponsible use. We’ll discuss failure modes, ethics, environmental cost, and when not to use AI throughout the course.\n\nDetailed disclosure requirements appear in each assignment.",
     "crumbs": [
       "Syllabus"
     ]
@@ -74,7 +94,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "All assignments are due by 11:59pm on the due date. Dates are tentative and will be confirmed against the official Spring 2027 academic calendar.\n\n\n\n\n\nWeek\nDate\nTrust Level\nClass\nBuild (Individual)\nTeam Project\n\n\n\n\n1\nAug 26\nBy hand\nGit, GitHub & Pages\nSetup; Git and GitHub by hand: commit, branch, PR; deploying to GitHub Pages\nBuild 1\nDue: Sep 02\n\n\n\n2\nSep 02\nChat\nHow LLMs Work (and Fail)\nTokens, attention, sampling, context windows, hallucination, tool calling\nBuild 2\nDue: Sep 09\n\n\n\n3\nSep 09\nHigh touch\nAgents\nThe agent loop and harness; tools, permissions, and failure modes\nBuild 3\nDue: Sep 16\n\n\n\n4\nSep 16\nHigh touch\nContext Engineering\nAttention budget, injecting documents, context hygiene\nBuild 4\nDue: Sep 23\n\n\n\n5\nSep 23\nHigh touch\nSpecs, Planning & Memory\nPlan mode; specs with guardrails; AGENTS.md and CLAUDE.md; teams form\nBuild 5\nDue: Sep 30\n\n\n\n6\nSep 30\nLeverage\nSkills\nUsing and building skills; commands as skills\nBuild 6\nDue: Oct 14\n\n\n\n7\nOct 07\n\nFall Break — no class\n\n\n\n\n\n8\nOct 14\nDelegate + verify\nThe Verification Harness\nTests, hooks, debugging, and review agents\nBuild 7\nDue: Oct 21\nProposal\nDue: Oct 14\n\n\n9\nOct 21\nAutomate verification\nCI & Cloud Robots\nGitHub Actions on push; scheduled jobs; secrets\nBuild 8\nDue: Oct 28\n\n\n\n10\nOct 28\nApply\nAgentic Data Analysis\npolars, plotnine, and Great Tables with data skills; team studio begins\nBuild 9\nDue: Nov 04\n\n\n\n11\nNov 04\nEmbed\nLLMs Inside Your Code\nCalling LLMs from Python with chatlas: structured data, tools, evals\nBuild 10\nDue: Nov 11\n\n\n\n12\nNov 11\nConnect\nMCP\nUsing and building MCP servers; prompt-injection risks\nBuild 11\nDue: Dec 02\n\n\n\n13\nNov 18\nOrchestrate\nMulti-Agent & Team Workflows\nSubagents, parallel agents in worktrees, PR review and merging\n\nInterim Report\nDue: Nov 18\n\n\n14\nNov 25\n\nThanksgiving — no class\n\n\n\n\n\n15\nDec 02\nTeam project\nTeam Studio\nTeam work; instructor circulates and gives direction\n\n\n\n\n16\nDec 07\nTeam project\nStudio & Final Checkpoint\nDesignated Thursday (meets Tue Dec 7); final code review\n\nFinal Report\nDue: Dec 07\n\n\n17\nDec 10\nTeam project\nFinal Presentations\nDuring the final exam slot (date TBD)\n\nPresentation\nDue: Dec 10",
+    "text": "All assignments are due by 11:59pm on the due date. Dates are tentative and will be confirmed against the official Fall 2027 academic calendar.\n\n\n\n\n\nWeek\nDate\nTrust Level\nClass\nBuild (Individual)\nTeam Project\n\n\n\n\n1\nAug 26\nBy hand\nGit, GitHub & Pages\nSetup; Git and GitHub by hand: commit, branch, PR; deploying to GitHub Pages\nBuild 1\nDue: Sep 02\n\n\n\n2\nSep 02\nChat\nHow LLMs Work (and Fail)\nTokens, attention, sampling, context windows, hallucination, tool calling\nBuild 2\nDue: Sep 09\n\n\n\n3\nSep 09\nHigh touch\nAgents\nThe agent loop and harness; tools, permissions, and failure modes\nBuild 3\nDue: Sep 16\n\n\n\n4\nSep 16\nHigh touch\nContext Engineering\nAttention budget, injecting documents, context hygiene\nBuild 4\nDue: Sep 23\n\n\n\n5\nSep 23\nHigh touch\nSpecs, Planning & Memory\nPlan mode; specs with guardrails; AGENTS.md and CLAUDE.md; teams form\nBuild 5\nDue: Sep 30\n\n\n\n6\nSep 30\nLeverage\nSkills\nUsing and building skills; commands as skills\nBuild 6\nDue: Oct 14\n\n\n\n7\nOct 07\n\nFall Break — no class\n\n\n\n\n\n8\nOct 14\nDelegate + verify\nThe Verification Harness\nTests, hooks, debugging, and review agents\nBuild 7\nDue: Oct 21\nProposal\nDue: Oct 14\n\n\n9\nOct 21\nAutomate verification\nCI & Cloud Robots\nGitHub Actions on push; scheduled jobs; secrets\nBuild 8\nDue: Oct 28\n\n\n\n10\nOct 28\nApply\nAgentic Data Analysis\npolars, plotnine, and Great Tables with data skills; team studio begins\nBuild 9\nDue: Nov 04\n\n\n\n11\nNov 04\nEmbed\nLLMs Inside Your Code\nCalling LLMs from Python with chatlas: structured data, tools, evals\nBuild 10\nDue: Nov 11\n\n\n\n12\nNov 11\nConnect\nMCP\nUsing and building MCP servers; prompt-injection risks\nBuild 11\nDue: Dec 02\n\n\n\n13\nNov 18\nOrchestrate\nMulti-Agent & Team Workflows\nSubagents, parallel agents in worktrees, PR review and merging\n\nInterim Report\nDue: Nov 18\n\n\n14\nNov 25\n\nThanksgiving — no class\n\n\n\n\n\n15\nDec 02\nTeam project\nTeam Studio\nTeam work; instructor circulates and gives direction\n\n\n\n\n16\nDec 07\nTeam project\nStudio & Final Checkpoint\nDesignated Thursday (meets Tue Dec 7); final code review\n\nFinal Report\nDue: Dec 07\n\n\n17\nDec 10\nTeam project\nFinal Presentations\nDuring the final exam slot (date TBD)\n\nPresentation\nDue: Dec 10",
     "crumbs": [
       "Schedule"
     ]
@@ -128,7 +148,7 @@
     "href": "project/0-overview.html",
     "title": "Team Project Overview",
     "section": "",
-    "text": "The team project is the capstone of the course — and the only piece of fully open-ended work. In teams of 3–4, you’ll propose and build an ambitious, real-world project of your own design, applying every workflow skill from the semester: version control, planning, skills, automation, debugging, continuous integration, deployment, and (where it helps) multi-agent orchestration.\nThroughout the final weeks, class sessions become team work sessions where the instructor circulates, audits progress, and gives direction — and where we learn collaboration workflows (pull request reviews, issues, and fork → branch → merge) live, as you need them.\nSummary of deliverables:\n\n\n\n\nItem\nWeight\nDue\n\n\n\n\nProposal\n5%\nFeb 18 (Week 6)\n\n\nInterim Report\n10%\nMar 25 (Week 11)\n\n\nFinal Report\n25%\nApr 22 (Week 15)\n\n\nFinal Presentation\n10%\nApr 29 (Week 16)\n\n\n\n\nComing soon!",
+    "text": "The team project is the capstone of the course — and the only piece of fully open-ended work. In teams of 3–4, you’ll propose and build an ambitious, real-world project of your own design, applying every workflow skill from the semester: version control, planning, skills, verification, continuous integration, deployment, LLM APIs, MCP, and (where it helps) multi-agent orchestration.\nTeams form in Meeting 5. From Meeting 9 on, the last ~45 minutes of each class is team studio time, where the instructor checks in with each team. The final two meetings are dedicated studio sessions, and we learn collaboration workflows (pull request reviews, issues, and parallel agents in git worktrees) live in Meeting 12.\nSummary of deliverables:\n\n\n\n\nItem\nWeight\nDue\n\n\n\n\nProposal\n5%\nOct 14 (Meeting 7)\n\n\nInterim Report\n10%\nNov 18 (Meeting 12)\n\n\nFinal Report\n15%\nDec 7 (Meeting 14)\n\n\nFinal Presentation\n10%\nFinal exam slot (date TBD)\n\n\n\n\nComing soon!",
     "crumbs": [
       "Team Project",
       "Overview"
@@ -139,7 +159,7 @@
     "href": "hw/9-data-analysis.html",
     "title": "Build 9: Agentic Data Analysis",
     "section": "",
-    "text": "Due: Nov 04 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Apply the workflow to real data: use an agent with polars, plotnine, and Great Tables to produce a verified, deployed Quarto report on a dataset that includes a messy free-text column.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Nov 04 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Apply the workflow to real data: use an agent with polars, plotnine, and Great Tables to produce a verified, deployed Quarto report on a dataset that includes a messy free-text column.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "9: Agentic Data Analysis"
@@ -161,7 +181,7 @@
     "href": "hw/7-review-harness.html",
     "title": "Build 7: Review Harness",
     "section": "",
-    "text": "Due: Oct 21 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Move from doing to delegating-and-verifying: direct an agent to clear a provided repo’s bug backlog with tests and pull requests, then build your own review skill or subagent and run it over your fixes.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Oct 21 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Move from doing to delegating-and-verifying: direct an agent to clear a provided repo’s bug backlog with tests and pull requests, then build your own review skill or subagent and run it over your fixes.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "7: Review Harness"
@@ -183,7 +203,7 @@
     "href": "hw/5-recreate-app.html",
     "title": "Build 5: Recreate an App",
     "section": "",
-    "text": "Due: Sep 30 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Plan before you prompt: write a spec with guardrails for a known app (e.g., Wordle or a pomodoro timer with stats), then have an agent build it to that spec.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Sep 30 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Plan before you prompt: write a spec with guardrails for a known app (e.g., Wordle or a pomodoro timer with stats), then have an agent build it to that spec.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "5: Recreate an App"
@@ -205,7 +225,7 @@
     "href": "hw/3-personal-website.html",
     "title": "Build 3: Personal Website",
     "section": "",
-    "text": "Due: Sep 16 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Direct an agent for the first time on a real build: ship a personal website in a framework of your choice, with a clean Git history, deployed to GitHub Pages.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Sep 16 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Direct an agent for the first time on a real build: ship a personal website in a framework of your choice, with a clean Git history, deployed to GitHub Pages.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "3: Personal Website"
@@ -227,7 +247,7 @@
     "href": "hw/11-mcp-server.html",
     "title": "Build 11: MCP Server",
     "section": "",
-    "text": "Due: Dec 02 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Connect agents to tools: build an MCP server that exposes your own data or tool, then use it from both your coding agent and a chatlas script.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Dec 02 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Connect agents to tools: build an MCP server that exposes your own data or tool, then use it from both your coding agent and a chatlas script.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "11: MCP Server"
@@ -249,7 +269,7 @@
     "href": "hw/1-git-warmup.html",
     "title": "Build 1: Git Warm-Up",
     "section": "",
-    "text": "Due: Sep 02 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Get fluent with the core Git and GitHub workflow by hand, with no agent: make a repository with a clean commit history, open and merge a pull request, and deploy a live page to GitHub Pages.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Sep 02 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Get fluent with the core Git and GitHub workflow by hand, with no agent: make a repository with a clean commit history, open and merge a pull request, and deploy a live page to GitHub Pages.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "1: Git Warm-Up"
@@ -313,7 +333,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\nThis course was created by Dr. John Paul Helveston at the George Washington University. Course materials are shared openly; see the LICENSE page for details.",
+    "text": "The bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches you to use AI coding agents like Claude Code and Codex to build ambitious things you don’t yet know how to build, while developing the professional engineering habits — version control with Git and GitHub, testing, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. The course runs in two parts. In Part 1: Working with an agent, we start with Git by hand, look under the hood at how large language models work (and fail), and then climb from high-touch collaboration with an agent toward delegating work and automatically verifying it. In Part 2: Building with LLMs, we apply the workflow to real data analysis in Python (polars, plotnine, and Great Tables), call LLMs from your own code with chatlas, connect agents to tools with the Model Context Protocol (MCP), and orchestrate multiple agents. Each week pairs a hands-on workflow concept taught live in class with an ambitious take-home build — a deployed personal website, a novel in an author’s voice, a video game, a cloud robot, an AI-powered tool, and more — and a short reading that connects the work to the bigger picture. A team project runs alongside, with in-class studio time for collaboration. By the end, you’ll have transferable engineering workflow skills, the ability to work with code and data through an agent, the judgment to know when to trust (and when to verify) AI output, and — most importantly — the ability to teach yourself new domains so you can tackle harder problems in the future.\nThis course was created by Dr. John Paul Helveston at the George Washington University. Course materials are shared openly; see the LICENSE page for details.",
     "crumbs": [
       "Other",
       "About"
@@ -387,7 +407,7 @@
     "href": "hw/10-ai-tool.html",
     "title": "Build 10: AI-Powered Tool",
     "section": "",
-    "text": "Due: Nov 11 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Embed an LLM in your own code: use chatlas to classify or extract structure from the free-text column in Build 9, and measure its accuracy against a small labeled evaluation set.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Nov 11 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Embed an LLM in your own code: use chatlas to classify or extract structure from the free-text column in Build 9, and measure its accuracy against a small labeled evaluation set.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "10: AI-Powered Tool"
@@ -409,7 +429,7 @@
     "href": "hw/2-probe-the-model.html",
     "title": "Build 2: Probe the Model",
     "section": "",
-    "text": "Due: Sep 09 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: See how LLMs work and fail firsthand by running five small experiments (tokenization quirks, sampling variance, context limits, fabricated citations, and sycophancy) and writing them up as a Quarto report.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Sep 09 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: See how LLMs work and fail firsthand by running five small experiments (tokenization quirks, sampling variance, context limits, fabricated citations, and sycophancy) and writing them up as a Quarto report.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "2: Probe the Model"
@@ -431,7 +451,7 @@
     "href": "hw/4-ingestion.html",
     "title": "Build 4: Ingestion (Review or Novel)",
     "section": "",
-    "text": "Due: Sep 23 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Practice context engineering by feeding an agent source material to produce either a literature review on a topic or a novel written in an admired author’s voice.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Sep 23 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Practice context engineering by feeding an agent source material to produce either a literature review on a topic or a novel written in an admired author’s voice.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "4: Ingestion (Review or Novel)"
@@ -453,7 +473,7 @@
     "href": "hw/6-video-game.html",
     "title": "Build 6: Video Game",
     "section": "",
-    "text": "Due: Oct 14 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Leverage skills to build something ambitious: assemble game-development skills, build and extend a video game, and write one custom skill of your own.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Oct 14 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Leverage skills to build something ambitious: assemble game-development skills, build and extend a video game, and write one custom skill of your own.\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "6: Video Game"
@@ -475,7 +495,7 @@
     "href": "hw/8-cloud-robot.html",
     "title": "Build 8: Cloud Robot",
     "section": "",
-    "text": "Due: Oct 28 by 11:59pm\nWeight: This build is worth 5% of your final grade (8 builds × 5% = 40%).\nPurpose: Automate verification and work: build a scheduled GitHub Action that does something useful on its own every day (a scraper, a digest, or an auto-updating README or badge).\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations). Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill.",
+    "text": "Due: Oct 28 by 11:59pm\nWeight: This build is worth 4% of your final grade (11 builds, lowest dropped, 10 × 4% = 40%).\nPurpose: Automate verification and work: build a scheduled GitHub Action that does something useful on its own every day (a scraper, a digest, or an auto-updating README or badge).\nDeliverable: A GitHub repository containing your build and the full conversation history with the agent (your prompts, the agent’s responses, and your iterations), plus a short reading reflection on this build’s assigned reading. Grading weighs the clarity of your prompts, evidence of iterative collaboration, the quality of the final product, and thoughtful use of this week’s workflow skill. Scrub API keys and personal data from your logs before submitting.",
     "crumbs": [
       "Builds (Individual)",
       "8: Cloud Robot"
@@ -495,9 +515,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "EMSE 6992Introduction to Agentic EngineeringSpring 2027",
+    "title": "EMSE 4197Build with AIAn Introduction to Agentic EngineeringFall 2027",
     "section": "",
-    "text": "EMSE 6992Introduction to Agentic EngineeringSpring 2027\nDepartment: Engineering Management and Systems Engineering @ GWU\nCredits: 3\nDescription:\nThe bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches students to use tools like Claude Code to build ambitious things they don’t yet know how to build, while developing the professional engineering workflows — version control with Git and GitHub, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. Each week pairs a hands-on workflow concept (taught live in class) with an ambitious take-home build in an unfamiliar domain: a deployed personal website, a novel in an author’s voice, a video game, a data pipeline, a simulation experiment, and more. The arc of the course follows a “trust gradient,” moving from high-touch, back-and-forth collaboration with an agent toward orchestrating specialized agents that work for long stretches under human supervision. By the end, students will have strong, transferable engineering workflow skills, the ability to work with code and data through an agent, and — most importantly — the ability to teach themselves new domains so they can tackle harder systems in the future.\nLearning Objectives:\nHaving successfully completed this course, students will be able to:\n\nDirect an AI agent to build real products in domains they haven’t learned before.\nUse Git, GitHub, and pull requests fluently as everyday version control and collaboration tools.\nSet up continuous integration with GitHub Actions and deploy to the web with GitHub Pages.\nDebug agent-built systems and use agents to diagnose and resolve issues, with automated review.\nOrchestrate specialized agents (planning, coding, testing) into a supervised pipeline.\nTeach themselves a new domain using an agent — the meta-skill that outlasts any single tool.\n\nPrerequisites:\nStudents must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. You do not need to be an expert, but you should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
+    "text": "EMSE 4197Build with AIAn Introduction to Agentic EngineeringFall 2027\nDepartment: Engineering Management and Systems Engineering @ GWU\nCredits: 3\nDescription:\nThe bottleneck on what you can build is no longer what you already know — it’s your workflow discipline and your ability to direct an agent. This course teaches you to use AI coding agents like Claude Code and Codex to build ambitious things you don’t yet know how to build, while developing the professional engineering habits — version control with Git and GitHub, testing, continuous integration with GitHub Actions, and deployment with GitHub Pages — that make agentic work sustainable and trustworthy. The course runs in two parts. In Part 1: Working with an agent, we start with Git by hand, look under the hood at how large language models work (and fail), and then climb from high-touch collaboration with an agent toward delegating work and automatically verifying it. In Part 2: Building with LLMs, we apply the workflow to real data analysis in Python (polars, plotnine, and Great Tables), call LLMs from your own code with chatlas, connect agents to tools with the Model Context Protocol (MCP), and orchestrate multiple agents. Each week pairs a hands-on workflow concept taught live in class with an ambitious take-home build — a deployed personal website, a novel in an author’s voice, a video game, a cloud robot, an AI-powered tool, and more — and a short reading that connects the work to the bigger picture. A team project runs alongside, with in-class studio time for collaboration. By the end, you’ll have transferable engineering workflow skills, the ability to work with code and data through an agent, the judgment to know when to trust (and when to verify) AI output, and — most importantly — the ability to teach yourself new domains so you can tackle harder problems in the future.\nLearning Objectives:\nHaving successfully completed this course, students will be able to:\n\nExplain how large language models work and why they fail (hallucination, sycophancy, limited context).\nDirect an AI agent to build real products in domains they haven’t learned before.\nUse Git, GitHub, and pull requests fluently as everyday version control and collaboration tools.\nVerify agent-built systems with tests, review agents, and continuous integration with GitHub Actions, and deploy to the web with GitHub Pages.\nAnalyze data with an agent using Python, and check the numbers, not just the plots.\nCall LLMs from their own code, and connect agents to tools using the Model Context Protocol (MCP).\nOrchestrate multiple agents and collaborate with teammates on a shared codebase.\nUse AI responsibly: verify outputs, disclose AI use, and protect secrets and personal data.\nTeach themselves a new domain using an agent — the meta-skill that outlasts any single tool.\n\nPrerequisites:\nStudents must have completed at least one programming course (e.g., CSCI 1012 or equivalent) or have comparable experience working in at least one programming language. Most of our code will be in Python, but you do not need to be a Python expert. You should be comfortable reading code, following the logic of a program, and recognizing when something is wrong — these are the skills that let you supervise an agent rather than blindly trust it. Students with zero coding experience will find this course very difficult.",
     "crumbs": [
       "Home"
     ]
@@ -529,7 +549,7 @@
     "href": "project/3-final-report.html",
     "title": "Team Project: Final Report",
     "section": "",
-    "text": "Due: Dec 07 by 11:59pm\nWeight: This deliverable is worth 25% of your final grade.\nPurpose: Deliver the complete project: problem statement, solution architecture, implementation details, results and evaluation, lessons learned, and the GitHub repository with full codebase and conversation history.",
+    "text": "Due: Dec 07 by 11:59pm\nWeight: This deliverable is worth 15% of your final grade.\nPurpose: Deliver the complete project: problem statement, solution architecture, implementation details, results and evaluation, lessons learned, and the GitHub repository with full codebase and conversation history.",
     "crumbs": [
       "Team Project",
       "Final Report"
@@ -551,17 +571,17 @@
     "href": "references.html",
     "title": "Resources",
     "section": "",
-    "text": "A growing list of readings, tools, and examples we draw on throughout the course.",
+    "text": "A growing list of readings, tools, and examples we draw on throughout the course. Each build page links to its assigned reading.",
     "crumbs": [
       "Resources"
     ]
   },
   {
-    "objectID": "references.html#on-agentic-engineering",
-    "href": "references.html#on-agentic-engineering",
+    "objectID": "references.html#readings-by-build",
+    "href": "references.html#readings-by-build",
     "title": "Resources",
-    "section": "On agentic engineering",
-    "text": "On agentic engineering\n\nWes McKinney, “Vibe Coding Is Dangerous, Agentic Engineering Isn’t”\nWes McKinney, “From Human Ergonomics to Agent Ergonomics”",
+    "section": "Readings by build",
+    "text": "Readings by build\n\n\n\nBuild\nReading\n\n\n\n\n1\nMIT report on AI and education, guiding principles · Sarkar, “How to stop AI from killing your critical thinking” (TED)\n\n\n2\nMesseri & Crockett (2024), “Artificial intelligence and illusions of understanding in scientific research” · 3Blue1Brown, Neural networks (videos 5–7)\n\n\n3\nWes McKinney, “Vibe Coding Is Dangerous, Agentic Engineering Isn’t” · Anthropic, “Building effective agents”\n\n\n4\nAnthropic, “Effective context engineering for AI agents” · Chroma, “Context Rot”\n\n\n5\nWes McKinney, “From Human Ergonomics to Agent Ergonomics”\n\n\n6\nAnthropic, “Equipping agents for the real world with Agent Skills” · superpowers\n\n\n7\nShah & Oram, “When AI Can Code, What Is Left for Programmers to Do?” (O’Reilly Radar)\n\n\n8\nSimon Willison, “Git scraping”\n\n\n9\nPosit, plotnine skill announcement · Data-to-Viz caveats\n\n\n10\nHamel Husain, “Your AI product needs evals”\n\n\n11\nSimon Willison, “The lethal trifecta for AI agents”\n\n\nMeeting 12\nAnthropic, “How we built our multi-agent research system” vs. Cognition, “Don’t build multi-agents”",
     "crumbs": [
       "Resources"
     ]
@@ -571,7 +591,7 @@
     "href": "references.html#tools-we-reference",
     "title": "Resources",
     "section": "Tools we reference",
-    "text": "Tools we reference\n\nClaude Code — the agentic coding tool used throughout the course.\nsuperpowers — a spec-driven agentic skills framework (Skills week).\nRoborev — continuous AI code review that flags issues per commit (Debugging week).\nMiddleman — a local dashboard to triage, review, and merge issues & PRs.\nAgentsview — an agent session viewer for reviewing what your agents did.\n\nComing soon!",
+    "text": "Tools we reference\n\nClaude Code and Codex — the agentic coding tools used in class.\nchatlas — calling LLMs from Python, including its MCP tools guide.\nholtzy/dataviz-skills — data visualization skills, including roast-my-chart.\nGreat Tables skill and the plotnine skill (uvx library-skills install --claude -s plotnine).\nTransformer Explainer and the tokenizer playground — LLM demos in the browser.\nmarkitdown — convert documents to Markdown for an agent.\nsuperpowers — a spec-driven agentic skills framework (Skills meeting).\nRoborev — continuous AI code review that flags issues per commit (Verification meeting).\nMiddleman — a local dashboard to triage, review, and merge issues & PRs.\nAgentsview — an agent session viewer for reviewing what your agents did.\n\nComing soon!",
     "crumbs": [
       "Resources"
     ]
@@ -581,7 +601,47 @@
     "href": "software.html",
     "title": "Software & Setup",
     "section": "",
-    "text": "This page will walk through everything you need installed before the first class. A quick list of what we’ll use:\n\nA terminal and a code editor (VS Code recommended).\nGit for version control.\nA GitHub account.\nAn agentic coding tool (Claude Code).\nLanguage runtimes as needed per build (e.g., Node, Python, R / Quarto).\n\nComing soon!",
+    "text": "This page walks through everything you need installed before the first class. Most of our code is in Python, and we’ll write both .py scripts and Quarto .qmd reports. We do not use Jupyter notebooks (.ipynb) in this course.",
+    "crumbs": [
+      "Software & Setup"
+    ]
+  },
+  {
+    "objectID": "software.html#what-well-use",
+    "href": "software.html#what-well-use",
+    "title": "Software & Setup",
+    "section": "What we’ll use",
+    "text": "What we’ll use\n\n\n\nPurpose\nTool\n\n\n\n\nTerminal and code editor\nA terminal plus VS Code or Positron\n\n\nVersion control\nGit and a GitHub account\n\n\nPython environments\nuv\n\n\nLinting and testing\nruff and pytest\n\n\nData\npolars, plotnine, Great Tables\n\n\nLLMs from Python\nchatlas\n\n\nMCP servers\nthe MCP Python SDK (FastMCP)\n\n\nReports\nQuarto\n\n\nAn AI coding agent\nClaude Code or Codex",
+    "crumbs": [
+      "Software & Setup"
+    ]
+  },
+  {
+    "objectID": "software.html#quarto-and-python",
+    "href": "software.html#quarto-and-python",
+    "title": "Software & Setup",
+    "section": "Quarto and Python",
+    "text": "Quarto and Python\nQuarto renders .qmd files containing Python code using its Jupyter engine. You won’t ever open or create a notebook, but the project’s uv environment needs ipykernel installed, and Quarto has to use that environment. The simplest way is to run Quarto through uv:\nuv add ipykernel\nuv run quarto render report.qmd",
+    "crumbs": [
+      "Software & Setup"
+    ]
+  },
+  {
+    "objectID": "software.html#choose-and-install-an-ai-coding-agent",
+    "href": "software.html#choose-and-install-an-ai-coding-agent",
+    "title": "Software & Setup",
+    "section": "Choose and install an AI coding agent",
+    "text": "Choose and install an AI coding agent\nWe will use agentic coding tools all semester, so you need one. Instruction will use Claude Code and Codex, and the underlying skills transfer between them.\n\nStep 1: Get a subscription (about $20/month)\n\nClaude Code requires at least a Claude Pro subscription. A free account isn’t enough.\nCodex requires a paid ChatGPT plan (Plus is fine).\n\nWe recommend a subscription rather than API billing because agentic coding uses so many tokens that per-token API costs would be far higher. Check Slack for whether the class has an institutional arrangement before paying for your own.\n\n\nStep 2: Install your agent\nFollow the official instructions: the Claude Code quickstart or the Codex repository. If you get stuck, we’ll sort it out together before or after the first class.\n\n\nOther agents\nYou’re welcome to use another agent (Gemini CLI, GitHub Copilot, OpenCode…). In-class instruction will use Claude Code and Codex, so you may need to translate tool-specific steps yourself.\n\n\nClaude Code ↔︎ Codex\nBoth tools read the same open standards, so most of what we build works in either:\n\n\n\nConcept\nClaude Code\nCodex\n\n\n\n\nProject instructions\nCLAUDE.md (we’ll have it import AGENTS.md)\nAGENTS.md\n\n\nSkills (SKILL.md)\n.claude/skills/\n.agents/skills/\n\n\nMCP servers\nsupported\nsupported\n\n\n\nFeatures like plan mode, hooks, and subagents differ between the two tools. We’ll note the differences as we reach each topic.",
+    "crumbs": [
+      "Software & Setup"
+    ]
+  },
+  {
+    "objectID": "software.html#api-access-for-chatlas-meetings-1011",
+    "href": "software.html#api-access-for-chatlas-meetings-1011",
+    "title": "Software & Setup",
+    "section": "API access for chatlas (Meetings 10–11)",
+    "text": "API access for chatlas (Meetings 10–11)\nA Claude or ChatGPT subscription does not include API access. For the chatlas meetings you have three options, and the code is the same for all of them (you change one line to switch providers):\n\nFree: the Gemini API free tier (via chatlas’s ChatGoogle).\nFree: a local model through Ollama (via ChatOllama).\nAbout $5: load credit with a provider and use a small, cheap model.\n\nWe’ll cover how to set this up, and how to keep API keys out of your code and out of your Git history, in class before Meeting 10.\nComing soon!",
     "crumbs": [
       "Software & Setup"
     ]
