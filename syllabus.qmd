@@ -47,12 +47,23 @@ The course runs on a **dual spine**. Every week pairs:
   integration, you'll do it live in class.
 - **An ambitious take-home build.** Each week's individual assignment is a
   build in an unfamiliar domain that forces you to apply that week's workflow
-  skill on your own, at higher stakes.
+  skill on your own, at higher stakes. Every build includes a short **reading**
+  that connects the work to the bigger picture.
 
-The sequence follows a **trust gradient**: we begin with high-touch, back-and-forth
-collaboration with an agent and progress toward orchestrating specialized agents
-that work for long stretches under your supervision. See the
-[schedule](schedule.qmd) for the week-by-week plan.
+The semester has two parts:
+
+- **Part 1: Working with an agent (Meetings 1–8).** We start with Git *by hand*,
+  look under the hood at how LLMs work and fail, and then climb a trust gradient:
+  high-touch collaboration with an agent → leverage (skills) → delegating work and
+  verifying it → automating verification with continuous integration.
+- **Part 2: Building with LLMs (Meetings 9–12).** We apply the workflow to real
+  data analysis in Python, call LLMs from your own code with chatlas, connect
+  agents to tools with MCP, and orchestrate multiple agents.
+
+From Meeting 9 on, the last ~45 minutes of each class is **team studio time** for
+your team project. The semester ends with two dedicated studio meetings and final
+presentations during the final exam slot. See the [schedule](schedule.qmd) for the
+meeting-by-meeting plan.
 
 # Assignments
 
@@ -67,12 +78,20 @@ homework. Plan to attend in person every week.
 
 ## Individual Builds
 
-Each week (Weeks 1–8) you complete one **build**: an ambitious project in a domain
-you likely haven't worked in before. Each build is delivered as a **GitHub
-repository that includes the full conversation history** with the agent. Grading
-focuses on prompt quality, evidence of iterative collaboration, final product
-quality, and thoughtful use of the week's workflow skill. There are 8 builds, each
-worth 5% of your grade.
+There are **11 builds**, each an ambitious project in a domain you likely haven't
+worked in before. Each build is delivered as a **GitHub repository that includes
+the full conversation history** with the agent, plus a short reflection on the
+build's assigned reading. Grading focuses on prompt quality, evidence of iterative
+collaboration, final product quality, and thoughtful use of the week's workflow
+skill. Builds are graded with a checklist, you may **resubmit once** for a revised
+score, and your **lowest build score is dropped**.
+
+## Oral Code Walkthroughs
+
+Twice during the semester you'll spend 5–10 minutes in class walking the instructor
+through one of your builds: how it works, and *why you (or the agent) did it that
+way*. The goal is durable learning. If you can't explain what the agent built, you
+don't yet own it.
 
 ## Team Project
 
@@ -89,23 +108,71 @@ Final grades will be calculated as follows:
 
 Item | Weight | Notes
 -----|--------|----------------------------------
-Individual Builds (8) | 40% | 8 builds, each worth 5%
-Team Project: Proposal | 5% | Teams of 3–4 (Week 6)
-Team Project: Interim Report | 10% | (Week 11)
-Team Project: Final Report | 25% | (Week 15)
-Final Presentation | 10% | (Week 16)
+Individual Builds (11) | 40% | Lowest dropped; 10 builds × 4%; one resubmission allowed
+Oral Code Walkthroughs (2) | 10% | 2 × 5%, in class
+Team Project: Proposal | 5% | Teams of 3–4 (Oct 14)
+Team Project: Interim Report | 10% | (Nov 18)
+Team Project: Final Report | 15% | (Dec 7)
+Final Presentation | 10% | (Final exam slot)
 Participation / Attendance | 10% | Yes, attendance is taken
 
 </div>
 
+## AI Tools and Cost
+
+You'll need an AI coding agent for this course, and the most economical option is a
+**subscription of about $20/month**:
+
+- **[Claude Pro](https://claude.ai/login?plan=pro)** (for Claude Code), or
+- **[ChatGPT Plus](https://chatgpt.com/pricing)** (for Codex).
+
+Choose one. You're welcome to use a different agentic coding tool instead (e.g.,
+Gemini CLI, GitHub Copilot, OpenCode), since the underlying skills transfer, but
+in-class instruction will use Claude Code and Codex.
+
+**Why a subscription and not the API?** Agentic coding burns a lot of tokens.
+Paying per token through an API would cost *far* more than a flat monthly
+subscription. We recommend a subscription for exactly that reason. I recognize that
+$20/month is a real cost. We are pursuing institutional access, so check Slack
+before you pay, and let me know if the cost is a barrier.
+
+**API access for Meetings 10–11.** A subscription does not include API access, and
+we'll call LLMs from Python code with [chatlas](https://posit-dev.github.io/chatlas/)
+in those meetings. You can do this at no cost with a free-tier or local model, or by
+loading about **$5** of credit on a provider's API and using a small model. The
+course materials work with any provider. We'll go over the options in class before
+Meeting 10.
+
 ## Generative-AI Use Policy
 
 Using AI agents is not "cheating" in this course — **it is the core skill being
-taught**. For individual builds you are *required* to use an agentic coding tool
-and to disclose your full conversation history as part of your submission. You
-remain fully responsible for the correctness, quality, and originality of
-everything you submit: read what the agent produces, run it, and fix it when it's
-wrong. Detailed disclosure requirements appear in each assignment.
+taught.** Using the language of the
+[MIT report on AI and education](https://aiandeducation.mit.edu/report/), the policy
+for individual builds is **required use of generative AI**: you must use an agentic
+coding tool and submit your full conversation history. You remain fully responsible
+for the correctness, quality, and originality of everything you submit: read what
+the agent produces, run it, and fix it when it's wrong.
+
+There are two **AI-free exceptions**, each with a reason:
+
+- **Meeting 1 and Build 1 (Git by hand).** You can't supervise an agent that uses
+  Git until you can use Git yourself.
+- **Reading reflections.** These are written in your own words, because the point is
+  your own thinking about the reading.
+
+Other course commitments:
+
+- **No AI detectors.** We do not use AI-detection software, which is unreliable.
+  The evidence of your process is your conversation logs and your Git history.
+- **Instructor disclosure.** I use AI in preparing course materials and in drafting
+  grading feedback, and I review everything before you see it.
+- **Log privacy.** Conversation logs are seen only by the course staff and used only
+  for grading. Remove API keys, passwords, and personal data from your logs before
+  you submit them.
+- **Responsible use.** We'll discuss failure modes, ethics, environmental cost, and
+  when *not* to use AI throughout the course.
+
+Detailed disclosure requirements appear in each assignment.
 
 # Course Policies
 

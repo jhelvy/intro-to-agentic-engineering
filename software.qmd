@@ -4,14 +4,94 @@ toc: true
 toc-location: right
 ---
 
-This page will walk through everything you need installed before the first class.
-A quick list of what we'll use:
+This page walks through everything you need installed before the first class. Most
+of our code is in **Python**, and we'll write both `.py` scripts and Quarto `.qmd`
+reports. **We do not use Jupyter notebooks (`.ipynb`) in this course.**
 
-- A terminal and a code editor (VS Code recommended).
-- [Git](https://git-scm.com/) for version control.
-- A [GitHub](https://github.com/) account.
-- An agentic coding tool ([Claude Code](https://www.claude.com/product/claude-code)).
-- Language runtimes as needed per build (e.g., Node, Python, R / Quarto).
+::: {.callout-note}
+Some setup steps below are still being written. Check back before the semester
+starts.
+:::
+
+## What we'll use
+
+| Purpose | Tool |
+|---|---|
+| Terminal and code editor | A terminal plus [VS Code](https://code.visualstudio.com/) or [Positron](https://positron.posit.co/) |
+| Version control | [Git](https://git-scm.com/) and a [GitHub](https://github.com/) account |
+| Python environments | [uv](https://docs.astral.sh/uv/) |
+| Linting and testing | [ruff](https://docs.astral.sh/ruff/) and [pytest](https://docs.pytest.org/) |
+| Data | [polars](https://pola.rs/), [plotnine](https://plotnine.org/), [Great Tables](https://posit-dev.github.io/great-tables/) |
+| LLMs from Python | [chatlas](https://posit-dev.github.io/chatlas/) |
+| MCP servers | the [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) (FastMCP) |
+| Reports | [Quarto](https://quarto.org/docs/get-started/) |
+| An AI coding agent | [Claude Code](https://www.claude.com/product/claude-code) or [Codex](https://github.com/openai/codex) |
+
+## Quarto and Python
+
+Quarto renders `.qmd` files containing Python code using its Jupyter engine. You
+won't ever open or create a notebook, but the project's uv environment needs
+`ipykernel` installed, and Quarto has to use that environment. The simplest way is
+to run Quarto through uv:
+
+```bash
+uv add ipykernel
+uv run quarto render report.qmd
+```
+
+## Choose and install an AI coding agent
+
+We will use agentic coding tools all semester, so you need one. Instruction will use
+**Claude Code** and **Codex**, and the underlying skills transfer between them.
+
+### Step 1: Get a subscription (about $20/month)
+
+- Claude Code requires at least a [Claude Pro](https://claude.ai/login?plan=pro)
+  subscription. A free account isn't enough.
+- Codex requires a paid [ChatGPT plan](https://chatgpt.com/pricing) (Plus is fine).
+
+We recommend a **subscription rather than API billing** because agentic coding uses
+so many tokens that per-token API costs would be far higher. Check Slack for whether
+the class has an institutional arrangement before paying for your own.
+
+### Step 2: Install your agent
+
+Follow the official instructions: the
+[Claude Code quickstart](https://code.claude.com/docs/en/quickstart) or the
+[Codex repository](https://github.com/openai/codex). If you get stuck, we'll sort it
+out together before or after the first class.
+
+### Other agents
+
+You're welcome to use another agent (Gemini CLI, GitHub Copilot, OpenCode...).
+In-class instruction will use Claude Code and Codex, so you may need to translate
+tool-specific steps yourself.
+
+### Claude Code ↔ Codex
+
+Both tools read the same open standards, so most of what we build works in either:
+
+| Concept | Claude Code | Codex |
+|---|---|---|
+| Project instructions | `CLAUDE.md` (we'll have it import `AGENTS.md`) | `AGENTS.md` |
+| Skills (`SKILL.md`) | `.claude/skills/` | `.agents/skills/` |
+| MCP servers | supported | supported |
+
+Features like plan mode, hooks, and subagents differ between the two tools. We'll
+note the differences as we reach each topic.
+
+## API access for chatlas (Meetings 10–11)
+
+A Claude or ChatGPT subscription does **not** include API access. For the
+chatlas meetings you have three options, and the code is the same for all of them
+(you change one line to switch providers):
+
+1. **Free:** the Gemini API free tier (via chatlas's `ChatGoogle`).
+2. **Free:** a local model through [Ollama](https://ollama.com/) (via `ChatOllama`).
+3. **About $5:** load credit with a provider and use a small, cheap model.
+
+We'll cover how to set this up, and how to keep API keys out of your code and out of
+your Git history, in class before Meeting 10.
 
 ```{r child = here::here("fragments", "placeholder.qmd")}
 ```

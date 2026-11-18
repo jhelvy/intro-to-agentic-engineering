@@ -11,12 +11,15 @@ due <- get_schedule() %>%
 
 > **Due**: `r due`
 >
-> **Weight**: This build is worth 5% of your final grade (8 builds × 5% = 40%).
+> **Weight**: This build is worth 4% of your final grade (11 builds, lowest
+> dropped, 10 × 4% = 40%).
 >
 > **Purpose**: `r params$purpose`
 >
 > **Deliverable**: A GitHub repository containing your build **and the full
 > conversation history** with the agent (your prompts, the agent's responses,
-> and your iterations). Grading weighs the clarity of your prompts, evidence of
+> and your iterations), plus a short **reading reflection** on this build's
+> assigned reading. Grading weighs the clarity of your prompts, evidence of
 > iterative collaboration, the quality of the final product, and thoughtful use
-> of this week's workflow skill.
+> of this week's workflow skill. Scrub API keys and personal data from your logs
+> before submitting.

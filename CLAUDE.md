@@ -4,16 +4,19 @@ Project guidance for working on this repository.
 
 ## What this is
 
-The course website for **EMSE 6992: Introduction to Agentic Engineering**
-(Spring 2027, GWU), built with [Quarto](https://quarto.org/). It is in active
+The course website for **EMSE 4197: Build with AI: An Introduction to Agentic
+Engineering** (Fall 2027, GWU), built with [Quarto](https://quarto.org/). It is in active
 development — most weekly slide decks and assignment briefs are still placeholders.
 
 ## Source of truth (read these first)
 
-- **`course-plan.md`** — the working design document: course thesis, the "dual
-  spine" and "trust gradient" framing, the week-by-week plan, assessment, and a
-  decisions log. **Start here** for any content/structure question; don't
-  re-derive or duplicate it.
+- **`planned-updates.md`** — the **current** plan: the undergraduate re-scope
+  (EMSE 4197, Fall 2027, Python), the 14-meeting schedule, builds and readings,
+  assessment, AI/cost policy, and MIT-report alignment. **Start here.** Where it
+  conflicts with `course-plan.md`, this wins.
+- **`course-plan.md`** — the original graduate design (EMSE 6992, Spring 2027):
+  course thesis, "dual spine" and "trust gradient" framing, decisions log. Still
+  the source for anything `planned-updates.md` doesn't mention.
 - **`class-factory.md`** — the original syllabus seed. Logistics and university
   policies still need to be merged from here into `syllabus.qmd`.
 
@@ -53,6 +56,8 @@ quarto render    # build to _site/
 - `_variables.yml`: repo/site URLs, Slack link, and room are guesses — confirm.
 - No logo/favicon yet; image references were intentionally omitted from
   `_quarto.yml` to avoid broken builds.
-- Schedule dates are computed Spring 2027 Thursdays, pending the official GWU
-  calendar.
+- Meeting day/time/room for Fall 2027 are assumed (Thursdays 3:30–6:00); the
+  exam-slot date is a placeholder. See open questions in `planned-updates.md`.
 - Most `class/`, `hw/`, and `project/` pages are placeholders awaiting content.
+- Python course: `.py` + `.qmd` only, **never `.ipynb`** (Quarto's Jupyter engine
+  is fine). The website itself stays R/Quarto.

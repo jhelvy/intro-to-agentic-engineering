@@ -8,7 +8,7 @@ execute:
 ---
 
 All assignments are due by 11:59pm on the due date. Dates are tentative and will
-be confirmed against the official Spring 2027 academic calendar.
+be confirmed against the official Fall 2027 academic calendar.
 
 ```{r}
 # NOTE: The schedule.lua file is inserted as a filter in _quarto.yml to

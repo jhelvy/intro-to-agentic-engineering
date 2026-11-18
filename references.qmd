@@ -5,17 +5,35 @@ toc-location: right
 ---
 
 A growing list of readings, tools, and examples we draw on throughout the course.
+Each build page links to its assigned reading.
 
-## On agentic engineering
+## Readings by build
 
-- Wes McKinney, [*"Vibe Coding Is Dangerous, Agentic Engineering Isn't"*](https://motherduck.com/blog/vibe-coding-dangerous-agentic-engineering-wes-mckinney/)
-- Wes McKinney, [*"From Human Ergonomics to Agent Ergonomics"*](https://wesmckinney.com/blog/agent-ergonomics/)
+| Build | Reading |
+|---|---|
+| 1 | [MIT report on AI and education](https://aiandeducation.mit.edu/report/), guiding principles · Sarkar, [*"How to stop AI from killing your critical thinking"*](https://www.youtube.com/watch?v=3lPnN8omdPA) (TED) |
+| 2 | Messeri & Crockett (2024), [*"Artificial intelligence and illusions of understanding in scientific research"*](https://lrc.northwestern.edu/language-instruction/professional-development1/artificial-intelligence-and-illusions-of-understanding-in-scientific-research-nature.pdf) · 3Blue1Brown, [*Neural networks*](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) (videos 5–7) |
+| 3 | Wes McKinney, [*"Vibe Coding Is Dangerous, Agentic Engineering Isn't"*](https://motherduck.com/blog/vibe-coding-dangerous-agentic-engineering-wes-mckinney/) · Anthropic, [*"Building effective agents"*](https://www.anthropic.com/engineering/building-effective-agents) |
+| 4 | Anthropic, [*"Effective context engineering for AI agents"*](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) · Chroma, [*"Context Rot"*](https://research.trychroma.com/context-rot) |
+| 5 | Wes McKinney, [*"From Human Ergonomics to Agent Ergonomics"*](https://wesmckinney.com/blog/agent-ergonomics/) |
+| 6 | Anthropic, [*"Equipping agents for the real world with Agent Skills"*](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) · [superpowers](https://github.com/obra/superpowers) |
+| 7 | Shah & Oram, [*"When AI Can Code, What Is Left for Programmers to Do?"*](https://www.oreilly.com/radar/when-ai-can-code-what-is-left-for-programmers-to-do/) (O'Reilly Radar) |
+| 8 | Simon Willison, [*"Git scraping"*](https://simonwillison.net/2020/Oct/9/git-scraping/) |
+| 9 | Posit, [*plotnine skill announcement*](https://opensource.posit.co/blog/2026-05-05_plotnine-skill-announcement/) · [Data-to-Viz caveats](https://www.data-to-viz.com/caveats.html) |
+| 10 | Hamel Husain, [*"Your AI product needs evals"*](https://hamel.dev/blog/posts/evals/) |
+| 11 | Simon Willison, [*"The lethal trifecta for AI agents"*](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) |
+| Meeting 12 | Anthropic, [*"How we built our multi-agent research system"*](https://www.anthropic.com/engineering/multi-agent-research-system) vs. Cognition, [*"Don't build multi-agents"*](https://cognition.ai/blog/dont-build-multi-agents) |
 
 ## Tools we reference
 
-- [Claude Code](https://www.claude.com/product/claude-code) — the agentic coding tool used throughout the course.
-- **superpowers** — a spec-driven agentic skills framework (Skills week).
-- **Roborev** — continuous AI code review that flags issues per commit (Debugging week).
+- [Claude Code](https://www.claude.com/product/claude-code) and [Codex](https://github.com/openai/codex) — the agentic coding tools used in class.
+- [chatlas](https://posit-dev.github.io/chatlas/) — calling LLMs from Python, including its [MCP tools guide](https://posit-dev.github.io/chatlas/misc/mcp-tools.html).
+- [holtzy/dataviz-skills](https://github.com/holtzy/dataviz-skills) — data visualization skills, including `roast-my-chart`.
+- [Great Tables skill](https://posit-dev.github.io/great-tables/skills.html) and the plotnine skill (`uvx library-skills install --claude -s plotnine`).
+- [Transformer Explainer](https://poloclub.github.io/transformer-explainer/) and the [tokenizer playground](https://tiktokenizer.vercel.app/) — LLM demos in the browser.
+- [markitdown](https://github.com/microsoft/markitdown) — convert documents to Markdown for an agent.
+- **superpowers** — a spec-driven agentic skills framework (Skills meeting).
+- **Roborev** — continuous AI code review that flags issues per commit (Verification meeting).
 - **Middleman** — a local dashboard to triage, review, and merge issues & PRs.
 - **Agentsview** — an agent session viewer for reviewing what your agents did.
 

@@ -1,5 +1,9 @@
 # Introduction to Agentic Engineering — Course Plan
 
+> **Superseded in part:** the course was re-scoped as an undergraduate course
+> (*Build with AI*, EMSE 4197, Fall 2027). See [`planned-updates.md`](planned-updates.md)
+> for the current plan; it wins wherever the two disagree.
+
 > **Status:** Working design document. This is the source of truth for course
 > *content and structure* decisions. Logistics, policies, and university-required
 > statements carry over from `class-factory.md` and will be merged in when we

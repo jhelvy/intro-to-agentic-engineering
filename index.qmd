@@ -1,4 +1,4 @@
-# EMSE 6992<br>Introduction to Agentic Engineering<br>Spring 2027
+# EMSE 4197<br>Build with AI<br>An Introduction to Agentic Engineering<br>Fall 2027
 
 **Department**: [Engineering Management and Systems Engineering](https://www.emse.seas.gwu.edu/) @ [GWU](https://www.gwu.edu/)
 
